@@ -1,0 +1,45 @@
+body,h1,h2,p,label,h3{
+    font-family: Heebo;
+    direction: rtl;
+}
+/*  */
+.column {
+    float:right;
+    flex: 1 1 40% 60%;
+    width: 48%;
+    padding: 10px;
+    text-align: center;
+    margin-right: 10px;
+    
+  }
+ .fontNice{
+    font-size: 20px;
+ }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+   /*div {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    -webkit-animation-name: example;  Safari 4.0 - 8.0 */
+   /* -webkit-animation-duration: 4s;  Safari 4.0 - 8.0 */
+   /*  -webkit-animation-delay: 2s; Safari 4.0 - 8.0 */
+
+  /* @-webkit-keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+  }
+  @keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+  }  */

@@ -1,0 +1,15 @@
+
+
+<br>
+<h1 *ngIf="currentMember.name">יתרה</h1>
+<h1 *ngIf="currentMember.name">{{getRemainTime(currentMember)}}</h1>
+<h1 *ngIf="!currentMember.name">אנא התחבר לחשבון</h1>
+<!-- כל הנתינות והקבלות -->
+<!-- קטגוריות משתמש -->
+<app-login *ngIf="!currentMember.name"></app-login>
+<app-member-categoties *ngIf="currentMember.name"></app-member-categoties>
+<!-- לוגין -->
+
+
+<app-view-give *ngIf="currentMember.name"></app-view-give>
+

@@ -1,0 +1,145 @@
+C:\Users\This_user\Desktop\הנדסאים\פרויקט גמר\server\TimeBank\Bll\obj\Debug\net5.0\Bll.csproj.AssemblyReference.cache
+C:\Users\This_user\Desktop\הנדסאים\פרויקט גמר\server\TimeBank\Bll\obj\Debug\net5.0\Bll.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\This_user\Desktop\הנדסאים\פרויקט גמר\server\TimeBank\Bll\obj\Debug\net5.0\Bll.AssemblyInfoInputs.cache
+C:\Users\This_user\Desktop\הנדסאים\פרויקט גמר\server\TimeBank\Bll\obj\Debug\net5.0\Bll.AssemblyInfo.cs
+C:\Users\This_user\Desktop\הנדסאים\פרויקט גמר\server\TimeBank\Bll\obj\Debug\net5.0\Bll.csproj.CoreCompileInputs.cache
+C:\Users\This_user\Desktop\הנדסאים\פרויקט גמר\server\TimeBank\Bll\bin\Debug\net5.0\Bll.deps.json
+C:\Users\This_user\Desktop\הנדסאים\פרויקט גמר\server\TimeBank\Bll\bin\Debug\net5.0\Bll.dll
+C:\Users\This_user\Desktop\הנדסאים\פרויקט גמר\server\TimeBank\Bll\bin\Debug\net5.0\ref\Bll.dll
+C:\Users\This_user\Desktop\הנדסאים\פרויקט גמר\server\TimeBank\Bll\bin\Debug\net5.0\Bll.pdb
+C:\Users\This_user\Desktop\הנדסאים\פרויקט גמר\server\TimeBank\Bll\bin\Debug\net5.0\Dal.dll
+C:\Users\This_user\Desktop\הנדסאים\פרויקט גמר\server\TimeBank\Bll\bin\Debug\net5.0\Dto.dll
+C:\Users\This_user\Desktop\הנדסאים\פרויקט גמר\server\TimeBank\Bll\bin\Debug\net5.0\Dal.pdb
+C:\Users\This_user\Desktop\הנדסאים\פרויקט גמר\server\TimeBank\Bll\bin\Debug\net5.0\Dto.pdb
+C:\Users\This_user\Desktop\הנדסאים\פרויקט גמר\server\TimeBank\Bll\obj\Debug\net5.0\Bll.csproj.CopyComplete
+C:\Users\This_user\Desktop\הנדסאים\פרויקט גמר\server\TimeBank\Bll\obj\Debug\net5.0\Bll.dll
+C:\Users\This_user\Desktop\הנדסאים\פרויקט גמר\server\TimeBank\Bll\obj\Debug\net5.0\ref\Bll.dll
+C:\Users\This_user\Desktop\הנדסאים\פרויקט גמר\server\TimeBank\Bll\obj\Debug\net5.0\Bll.pdb
+E:\TimeBank\Bll\obj\Debug\net5.0\Bll.csproj.AssemblyReference.cache
+E:\TimeBank\Bll\obj\Debug\net5.0\Bll.GeneratedMSBuildEditorConfig.editorconfig
+E:\TimeBank\Bll\obj\Debug\net5.0\Bll.AssemblyInfoInputs.cache
+E:\TimeBank\Bll\obj\Debug\net5.0\Bll.AssemblyInfo.cs
+E:\TimeBank\Bll\obj\Debug\net5.0\Bll.csproj.CoreCompileInputs.cache
+E:\TimeBank\Bll\obj\Debug\net5.0\Bll.dll
+E:\TimeBank\Bll\obj\Debug\net5.0\ref\Bll.dll
+E:\TimeBank\Bll\obj\Debug\net5.0\Bll.pdb
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\TimeBank\Bll\obj\Debug\net5.0\Bll.csproj.AssemblyReference.cache
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\TimeBank\Bll\obj\Debug\net5.0\Bll.GeneratedMSBuildEditorConfig.editorconfig
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\TimeBank\Bll\obj\Debug\net5.0\Bll.AssemblyInfoInputs.cache
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\TimeBank\Bll\obj\Debug\net5.0\Bll.AssemblyInfo.cs
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\TimeBank\Bll\obj\Debug\net5.0\Bll.csproj.CoreCompileInputs.cache
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\TimeBank\Bll\obj\Debug\net5.0\Bll.dll
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\TimeBank\Bll\obj\Debug\net5.0\ref\Bll.dll
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\TimeBank\Bll\obj\Debug\net5.0\Bll.pdb
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\TimeBank\Bll\bin\Debug\net5.0\Bll.deps.json
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\TimeBank\Bll\bin\Debug\net5.0\Bll.dll
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\TimeBank\Bll\bin\Debug\net5.0\ref\Bll.dll
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\TimeBank\Bll\bin\Debug\net5.0\Bll.pdb
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\TimeBank\Bll\bin\Debug\net5.0\Dal.dll
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\TimeBank\Bll\bin\Debug\net5.0\Dto.dll
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\TimeBank\Bll\bin\Debug\net5.0\Dal.pdb
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\TimeBank\Bll\bin\Debug\net5.0\Dto.pdb
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\TimeBank\Bll\obj\Debug\net5.0\Bll.csproj.CopyComplete
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\server\TimeBank\Bll\bin\Debug\net5.0\Bll.deps.json
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\server\TimeBank\Bll\bin\Debug\net5.0\Bll.dll
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\server\TimeBank\Bll\bin\Debug\net5.0\ref\Bll.dll
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\server\TimeBank\Bll\bin\Debug\net5.0\Bll.pdb
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\server\TimeBank\Bll\bin\Debug\net5.0\Dal.dll
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\server\TimeBank\Bll\bin\Debug\net5.0\Dto.dll
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\server\TimeBank\Bll\bin\Debug\net5.0\Dal.pdb
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\server\TimeBank\Bll\bin\Debug\net5.0\Dto.pdb
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\server\TimeBank\Bll\obj\Debug\net5.0\Bll.csproj.AssemblyReference.cache
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\server\TimeBank\Bll\obj\Debug\net5.0\Bll.GeneratedMSBuildEditorConfig.editorconfig
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\server\TimeBank\Bll\obj\Debug\net5.0\Bll.AssemblyInfoInputs.cache
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\server\TimeBank\Bll\obj\Debug\net5.0\Bll.AssemblyInfo.cs
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\server\TimeBank\Bll\obj\Debug\net5.0\Bll.csproj.CoreCompileInputs.cache
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\server\TimeBank\Bll\obj\Debug\net5.0\Bll.csproj.CopyComplete
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\server\TimeBank\Bll\obj\Debug\net5.0\Bll.dll
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\server\TimeBank\Bll\obj\Debug\net5.0\ref\Bll.dll
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\server\TimeBank\Bll\obj\Debug\net5.0\Bll.pdb
+C:\Users\This_user\Documents\GitHub\TimeBankP\server\TimeBank\Bll\bin\Debug\net5.0\Bll.deps.json
+C:\Users\This_user\Documents\GitHub\TimeBankP\server\TimeBank\Bll\bin\Debug\net5.0\Bll.dll
+C:\Users\This_user\Documents\GitHub\TimeBankP\server\TimeBank\Bll\bin\Debug\net5.0\ref\Bll.dll
+C:\Users\This_user\Documents\GitHub\TimeBankP\server\TimeBank\Bll\bin\Debug\net5.0\Bll.pdb
+C:\Users\This_user\Documents\GitHub\TimeBankP\server\TimeBank\Bll\bin\Debug\net5.0\Dal.dll
+C:\Users\This_user\Documents\GitHub\TimeBankP\server\TimeBank\Bll\bin\Debug\net5.0\Dto.dll
+C:\Users\This_user\Documents\GitHub\TimeBankP\server\TimeBank\Bll\bin\Debug\net5.0\Dal.pdb
+C:\Users\This_user\Documents\GitHub\TimeBankP\server\TimeBank\Bll\bin\Debug\net5.0\Dto.pdb
+C:\Users\This_user\Documents\GitHub\TimeBankP\server\TimeBank\Bll\obj\Debug\net5.0\Bll.csproj.AssemblyReference.cache
+C:\Users\This_user\Documents\GitHub\TimeBankP\server\TimeBank\Bll\obj\Debug\net5.0\Bll.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\This_user\Documents\GitHub\TimeBankP\server\TimeBank\Bll\obj\Debug\net5.0\Bll.AssemblyInfoInputs.cache
+C:\Users\This_user\Documents\GitHub\TimeBankP\server\TimeBank\Bll\obj\Debug\net5.0\Bll.AssemblyInfo.cs
+C:\Users\This_user\Documents\GitHub\TimeBankP\server\TimeBank\Bll\obj\Debug\net5.0\Bll.csproj.CoreCompileInputs.cache
+C:\Users\This_user\Documents\GitHub\TimeBankP\server\TimeBank\Bll\obj\Debug\net5.0\Bll.csproj.CopyComplete
+C:\Users\This_user\Documents\GitHub\TimeBankP\server\TimeBank\Bll\obj\Debug\net5.0\Bll.dll
+C:\Users\This_user\Documents\GitHub\TimeBankP\server\TimeBank\Bll\obj\Debug\net5.0\ref\Bll.dll
+C:\Users\This_user\Documents\GitHub\TimeBankP\server\TimeBank\Bll\obj\Debug\net5.0\Bll.pdb
+D:\מסלול\‏‏שנה ב\bank Time in git\TimeBankP\server\TimeBank\Bll\bin\Debug\net5.0\Bll.deps.json
+D:\מסלול\‏‏שנה ב\bank Time in git\TimeBankP\server\TimeBank\Bll\bin\Debug\net5.0\Bll.dll
+D:\מסלול\‏‏שנה ב\bank Time in git\TimeBankP\server\TimeBank\Bll\bin\Debug\net5.0\ref\Bll.dll
+D:\מסלול\‏‏שנה ב\bank Time in git\TimeBankP\server\TimeBank\Bll\bin\Debug\net5.0\Bll.pdb
+D:\מסלול\‏‏שנה ב\bank Time in git\TimeBankP\server\TimeBank\Bll\bin\Debug\net5.0\Dal.dll
+D:\מסלול\‏‏שנה ב\bank Time in git\TimeBankP\server\TimeBank\Bll\bin\Debug\net5.0\Dto.dll
+D:\מסלול\‏‏שנה ב\bank Time in git\TimeBankP\server\TimeBank\Bll\bin\Debug\net5.0\Dal.pdb
+D:\מסלול\‏‏שנה ב\bank Time in git\TimeBankP\server\TimeBank\Bll\bin\Debug\net5.0\Dto.pdb
+D:\מסלול\‏‏שנה ב\bank Time in git\TimeBankP\server\TimeBank\Bll\obj\Debug\net5.0\Bll.csproj.AssemblyReference.cache
+D:\מסלול\‏‏שנה ב\bank Time in git\TimeBankP\server\TimeBank\Bll\obj\Debug\net5.0\Bll.GeneratedMSBuildEditorConfig.editorconfig
+D:\מסלול\‏‏שנה ב\bank Time in git\TimeBankP\server\TimeBank\Bll\obj\Debug\net5.0\Bll.AssemblyInfoInputs.cache
+D:\מסלול\‏‏שנה ב\bank Time in git\TimeBankP\server\TimeBank\Bll\obj\Debug\net5.0\Bll.AssemblyInfo.cs
+D:\מסלול\‏‏שנה ב\bank Time in git\TimeBankP\server\TimeBank\Bll\obj\Debug\net5.0\Bll.csproj.CoreCompileInputs.cache
+D:\מסלול\‏‏שנה ב\bank Time in git\TimeBankP\server\TimeBank\Bll\obj\Debug\net5.0\Bll.csproj.CopyComplete
+D:\מסלול\‏‏שנה ב\bank Time in git\TimeBankP\server\TimeBank\Bll\obj\Debug\net5.0\Bll.dll
+D:\מסלול\‏‏שנה ב\bank Time in git\TimeBankP\server\TimeBank\Bll\obj\Debug\net5.0\ref\Bll.dll
+D:\מסלול\‏‏שנה ב\bank Time in git\TimeBankP\server\TimeBank\Bll\obj\Debug\net5.0\Bll.pdb
+D:\TimeBank\server\TimeBank\Bll\bin\Debug\net5.0\Bll.deps.json
+D:\TimeBank\server\TimeBank\Bll\bin\Debug\net5.0\Bll.dll
+D:\TimeBank\server\TimeBank\Bll\bin\Debug\net5.0\ref\Bll.dll
+D:\TimeBank\server\TimeBank\Bll\bin\Debug\net5.0\Bll.pdb
+D:\TimeBank\server\TimeBank\Bll\bin\Debug\net5.0\Dal.dll
+D:\TimeBank\server\TimeBank\Bll\bin\Debug\net5.0\Dto.dll
+D:\TimeBank\server\TimeBank\Bll\bin\Debug\net5.0\Dal.pdb
+D:\TimeBank\server\TimeBank\Bll\bin\Debug\net5.0\Dto.pdb
+D:\TimeBank\server\TimeBank\Bll\obj\Debug\net5.0\Bll.csproj.AssemblyReference.cache
+D:\TimeBank\server\TimeBank\Bll\obj\Debug\net5.0\Bll.GeneratedMSBuildEditorConfig.editorconfig
+D:\TimeBank\server\TimeBank\Bll\obj\Debug\net5.0\Bll.AssemblyInfoInputs.cache
+D:\TimeBank\server\TimeBank\Bll\obj\Debug\net5.0\Bll.AssemblyInfo.cs
+D:\TimeBank\server\TimeBank\Bll\obj\Debug\net5.0\Bll.csproj.CoreCompileInputs.cache
+D:\TimeBank\server\TimeBank\Bll\obj\Debug\net5.0\Bll.csproj.CopyComplete
+D:\TimeBank\server\TimeBank\Bll\obj\Debug\net5.0\Bll.dll
+D:\TimeBank\server\TimeBank\Bll\obj\Debug\net5.0\ref\Bll.dll
+D:\TimeBank\server\TimeBank\Bll\obj\Debug\net5.0\Bll.pdb
+D:\דיני\TimeBank\server\TimeBank\Bll\bin\Debug\net5.0\Bll.deps.json
+D:\דיני\TimeBank\server\TimeBank\Bll\bin\Debug\net5.0\Bll.dll
+D:\דיני\TimeBank\server\TimeBank\Bll\bin\Debug\net5.0\ref\Bll.dll
+D:\דיני\TimeBank\server\TimeBank\Bll\bin\Debug\net5.0\Bll.pdb
+D:\דיני\TimeBank\server\TimeBank\Bll\bin\Debug\net5.0\Dal.dll
+D:\דיני\TimeBank\server\TimeBank\Bll\bin\Debug\net5.0\Dto.dll
+D:\דיני\TimeBank\server\TimeBank\Bll\bin\Debug\net5.0\Dal.pdb
+D:\דיני\TimeBank\server\TimeBank\Bll\bin\Debug\net5.0\Dto.pdb
+D:\דיני\TimeBank\server\TimeBank\Bll\obj\Debug\net5.0\Bll.csproj.AssemblyReference.cache
+D:\דיני\TimeBank\server\TimeBank\Bll\obj\Debug\net5.0\Bll.GeneratedMSBuildEditorConfig.editorconfig
+D:\דיני\TimeBank\server\TimeBank\Bll\obj\Debug\net5.0\Bll.AssemblyInfoInputs.cache
+D:\דיני\TimeBank\server\TimeBank\Bll\obj\Debug\net5.0\Bll.AssemblyInfo.cs
+D:\דיני\TimeBank\server\TimeBank\Bll\obj\Debug\net5.0\Bll.csproj.CoreCompileInputs.cache
+D:\דיני\TimeBank\server\TimeBank\Bll\obj\Debug\net5.0\Bll.csproj.CopyComplete
+D:\דיני\TimeBank\server\TimeBank\Bll\obj\Debug\net5.0\Bll.dll
+D:\דיני\TimeBank\server\TimeBank\Bll\obj\Debug\net5.0\ref\Bll.dll
+D:\דיני\TimeBank\server\TimeBank\Bll\obj\Debug\net5.0\Bll.pdb
+D:\דיני\TimeBank\backend\server\TimeBank\Bll\bin\Debug\net5.0\Bll.deps.json
+D:\דיני\TimeBank\backend\server\TimeBank\Bll\bin\Debug\net5.0\Bll.dll
+D:\דיני\TimeBank\backend\server\TimeBank\Bll\bin\Debug\net5.0\Bll.pdb
+D:\דיני\TimeBank\backend\server\TimeBank\Bll\bin\Debug\net5.0\Dal.dll
+D:\דיני\TimeBank\backend\server\TimeBank\Bll\bin\Debug\net5.0\Dto.dll
+D:\דיני\TimeBank\backend\server\TimeBank\Bll\bin\Debug\net5.0\Dal.pdb
+D:\דיני\TimeBank\backend\server\TimeBank\Bll\bin\Debug\net5.0\Dto.pdb
+D:\דיני\TimeBank\backend\server\TimeBank\Bll\obj\Debug\net5.0\Bll.csproj.AssemblyReference.cache
+D:\דיני\TimeBank\backend\server\TimeBank\Bll\obj\Debug\net5.0\Bll.GeneratedMSBuildEditorConfig.editorconfig
+D:\דיני\TimeBank\backend\server\TimeBank\Bll\obj\Debug\net5.0\Bll.AssemblyInfoInputs.cache
+D:\דיני\TimeBank\backend\server\TimeBank\Bll\obj\Debug\net5.0\Bll.AssemblyInfo.cs
+D:\דיני\TimeBank\backend\server\TimeBank\Bll\obj\Debug\net5.0\Bll.csproj.CoreCompileInputs.cache
+D:\דיני\TimeBank\backend\server\TimeBank\Bll\obj\Debug\net5.0\Bll.sourcelink.json
+D:\דיני\TimeBank\backend\server\TimeBank\Bll\obj\Debug\net5.0\Bll.csproj.CopyComplete
+D:\דיני\TimeBank\backend\server\TimeBank\Bll\obj\Debug\net5.0\Bll.dll
+D:\דיני\TimeBank\backend\server\TimeBank\Bll\obj\Debug\net5.0\refint\Bll.dll
+D:\דיני\TimeBank\backend\server\TimeBank\Bll\obj\Debug\net5.0\Bll.pdb
+D:\דיני\TimeBank\backend\server\TimeBank\Bll\obj\Debug\net5.0\ref\Bll.dll

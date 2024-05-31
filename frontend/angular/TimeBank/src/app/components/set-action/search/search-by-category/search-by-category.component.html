@@ -1,0 +1,209 @@
+<!-- Add your HTML code for the filter section here -->
+<!-- <div class="filter-container">
+  <div class="search-icon">
+    <i class="fas fa-search"></i>
+</div>
+  <h2>Filter Options</h2>
+  <div class="form-group">
+    <label for="memGiverName">Member Giver Name</label>
+    <input type="text" id="memGiverName" [(ngModel)]="filterOptions.memGiverName" class="form-control">
+  </div>
+
+
+  <div class="form-group">
+    <label for="memPhone">Member Phone</label>
+    <input type="text" id="memPhone" [(ngModel)]="filterOptions.memPhone" class="form-control">
+  </div>
+  <div class="form-group">
+    <label for="memEmail">Member Email</label>
+    <input type="text" id="memEmail" [(ngModel)]="filterOptions.memEmail" class="form-control">
+  </div>
+  <div class="form-group">
+    <label for="memAddress">Member Address</label>
+    <input type="text" id="memAddress" [(ngModel)]="filterOptions.memAddress" class="form-control">
+  </div>
+  <div class="form-group">
+    <label for="category">Category</label>
+    <select id="category" [(ngModel)]="filterOptions.category" class="form-control">
+      <option value="category1">Category 1</option>
+      <option value="category2">Category 2</option>
+    </select>
+  </div>
+  <div class="form-group">
+    <label for="publicPlace">Public Place</label>
+    <input type="text" id="publicPlace" [(ngModel)]="filterOptions.Place" class="form-control">
+  </div>
+ 
+  <div class="form-group">
+    <label for="possibilityComeCustomerHome">Can Come to Customer's Home</label>
+    <input type="checkbox" id="possibilityComeCustomerHome" [(ngModel)]="filterOptions.PossibilityComeCustomerHome">
+  </div>
+ 
+ 
+  <div class="form-group">
+      <label for="experienceYears">Experience Years</label>
+      <input type="text" id="experienceYears" [(ngModel)]="filterOptions.ExperienceYears" class="form-control">
+    </div>
+    
+    <div class="form-group">
+      <label for="restrictionsDescription">Restrictions Description</label>
+      <input type="text" id="restrictionsDescription" [(ngModel)]="filterOptions.RestrictionsDescription" class="form-control">
+    </div>
+    
+    <div class="form-group">
+      <label for="forGroup">For Group</label>
+      <input type="checkbox" id="forGroup" [(ngModel)]="filterOptions.forGroup" class="form-check-input">
+    </div>
+    
+    <div class="form-group">
+      <label for="minGroup">Minimum Group Size</label>
+      <input type="number" id="minGroup" [(ngModel)]="filterOptions.minGroup" class="form-control">
+    </div>
+    
+    <div class="form-group">
+      <label for="maxGroup">Maximum Group Size</label>
+      <input type="number" id="maxGroup" [(ngModel)]="filterOptions.maxGroup" class="form-control">
+    </div>
+    
+    <button (click)="applyFilter()" class="btn btn-primary">Apply Filter</button>
+  </div>
+
+
+ -->
+
+
+ <div class="container">
+  <button class="slide-button" (click)="toggleFilterContainer()">
+    <mat-icon>search</mat-icon>
+  </button>
+  <div class="overlay" [class.open]="isFilterContainerOpen"></div>
+  <div class="filter-container" [class.open]="isFilterContainerOpen">
+    <button class="close-button" (click)="toggleFilterContainer()">
+      <mat-icon>close</mat-icon>
+    </button>
+    <mat-card>
+      <!-- <mat-card-header>
+        <mat-card-title>Filter Options</mat-card-title>
+      </mat-card-header> -->
+      <mat-card-content>
+       
+        
+
+
+
+        
+ <mat-card class="filter-container">
+  <mat-card-header>
+    <mat-card-title>Filter Options</mat-card-title>
+    <mat-icon class="search-icon">search</mat-icon>
+  </mat-card-header>
+  <mat-card-content>
+    <mat-form-field class="form-group">
+      <mat-label>Member Giver Name</mat-label>
+      <input matInput type="text" [(ngModel)]="filterOptions.memGiverName">
+    </mat-form-field>
+    <mat-form-field class="form-group">
+      <mat-label>Member Phone</mat-label>
+      <input matInput type="text" [(ngModel)]="filterOptions.memPhone">
+    </mat-form-field>
+    <mat-form-field class="form-group">
+      <mat-label>Member Email</mat-label>
+      <input matInput type="text" [(ngModel)]="filterOptions.memEmail">
+    </mat-form-field>
+    <mat-form-field class="form-group">
+      <mat-label>Member Address</mat-label>
+      <input matInput type="text" [(ngModel)]="filterOptions.memAddress">
+    </mat-form-field>
+    <mat-form-field class="form-group">
+      <mat-label>Category</mat-label>
+      <mat-select [(ngModel)]="filterOptions.category">
+        <mat-option value="category1">Category 1</mat-option>
+        <mat-option value="category2">Category 2</mat-option>
+      </mat-select>
+    </mat-form-field>
+    <mat-form-field class="form-group">
+      <mat-label>Public Place</mat-label>
+      <input matInput type="text" [(ngModel)]="filterOptions.Place">
+    </mat-form-field>
+    <mat-checkbox class="form-group" [(ngModel)]="filterOptions.PossibilityComeCustomerHome">
+      Can Come to Customer's Home
+    </mat-checkbox>
+    <mat-form-field class="form-group">
+      <mat-label>Experience Years</mat-label>
+      <input matInput type="text" [(ngModel)]="filterOptions.ExperienceYears">
+    </mat-form-field>
+  </mat-card-content>
+  <mat-card-actions>
+    <button mat-button color="primary" (click)="applyFilter()">Apply Filters</button>
+    <button mat-button color="warn" (click)="resetFilters()">Clear Filters</button>
+  </mat-card-actions>
+</mat-card>
+
+
+      </mat-card-content>
+      <!-- <mat-card-actions>
+        <button mat-button (click)="resetFilters()">Reset</button>
+        <button mat-raised-button color="primary" (click)="applyFilter()">Apply</button>
+      </mat-card-actions> -->
+    </mat-card>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+<!-- 
+
+
+
+ <mat-card class="filter-container">
+  <mat-card-header>
+    <mat-card-title>Filter Options</mat-card-title>
+    <mat-icon class="search-icon">search</mat-icon>
+  </mat-card-header>
+  <mat-card-content>
+    <mat-form-field class="form-group">
+      <mat-label>Member Giver Name</mat-label>
+      <input matInput type="text" [(ngModel)]="filterOptions.memGiverName">
+    </mat-form-field>
+    <mat-form-field class="form-group">
+      <mat-label>Member Phone</mat-label>
+      <input matInput type="text" [(ngModel)]="filterOptions.memPhone">
+    </mat-form-field>
+    <mat-form-field class="form-group">
+      <mat-label>Member Email</mat-label>
+      <input matInput type="text" [(ngModel)]="filterOptions.memEmail">
+    </mat-form-field>
+    <mat-form-field class="form-group">
+      <mat-label>Member Address</mat-label>
+      <input matInput type="text" [(ngModel)]="filterOptions.memAddress">
+    </mat-form-field>
+    <mat-form-field class="form-group">
+      <mat-label>Category</mat-label>
+      <mat-select [(ngModel)]="filterOptions.category">
+        <mat-option value="category1">Category 1</mat-option>
+        <mat-option value="category2">Category 2</mat-option>
+      </mat-select>
+    </mat-form-field>
+    <mat-form-field class="form-group">
+      <mat-label>Public Place</mat-label>
+      <input matInput type="text" [(ngModel)]="filterOptions.Place">
+    </mat-form-field>
+    <mat-checkbox class="form-group" [(ngModel)]="filterOptions.PossibilityComeCustomerHome">
+      Can Come to Customer's Home
+    </mat-checkbox>
+    <mat-form-field class="form-group">
+      <mat-label>Experience Years</mat-label>
+      <input matInput type="text" [(ngModel)]="filterOptions.ExperienceYears">
+    </mat-form-field>
+  </mat-card-content>
+  <mat-card-actions>
+    <button mat-button color="primary">Apply Filters</button>
+    <button mat-button color="warn">Clear Filters</button>
+  </mat-card-actions>
+</mat-card>
+ -->

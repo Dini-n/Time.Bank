@@ -1,0 +1,23 @@
+table {
+    direction: rtl;
+    border-collapse: collapse;
+    width: 100%;
+    font-family: Heebo;
+    direction: rtl;
+}
+td, th {
+    border: 1px solid #ddd;
+    padding: 4px;
+}
+#amuda{
+    background-color:rgb(235, 129, 144);
+}
+body , h1{
+    direction: rtl;
+    font-family: Heebo;
+    text-align: center;
+    font-weight: bold;
+}
+.demo-button  {
+    margin-left: 8px;
+  }

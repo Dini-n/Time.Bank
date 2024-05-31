@@ -1,0 +1,520 @@
+C:\Users\This_user\Desktop\הנדסאים\פרויקט גמר\server\TimeBank\TimeBank\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\This_user\Desktop\הנדסאים\פרויקט גמר\server\TimeBank\TimeBank\bin\Debug\net5.0\appsettings.json
+C:\Users\This_user\Desktop\הנדסאים\פרויקט גמר\server\TimeBank\TimeBank\bin\Debug\net5.0\TimeBank.exe
+C:\Users\This_user\Desktop\הנדסאים\פרויקט גמר\server\TimeBank\TimeBank\bin\Debug\net5.0\TimeBank.deps.json
+C:\Users\This_user\Desktop\הנדסאים\פרויקט גמר\server\TimeBank\TimeBank\bin\Debug\net5.0\TimeBank.runtimeconfig.json
+C:\Users\This_user\Desktop\הנדסאים\פרויקט גמר\server\TimeBank\TimeBank\bin\Debug\net5.0\TimeBank.runtimeconfig.dev.json
+C:\Users\This_user\Desktop\הנדסאים\פרויקט גמר\server\TimeBank\TimeBank\bin\Debug\net5.0\TimeBank.dll
+C:\Users\This_user\Desktop\הנדסאים\פרויקט גמר\server\TimeBank\TimeBank\bin\Debug\net5.0\ref\TimeBank.dll
+C:\Users\This_user\Desktop\הנדסאים\פרויקט גמר\server\TimeBank\TimeBank\bin\Debug\net5.0\TimeBank.pdb
+C:\Users\This_user\Desktop\הנדסאים\פרויקט גמר\server\TimeBank\TimeBank\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\Users\This_user\Desktop\הנדסאים\פרויקט גמר\server\TimeBank\TimeBank\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\This_user\Desktop\הנדסאים\פרויקט גמר\server\TimeBank\TimeBank\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\This_user\Desktop\הנדסאים\פרויקט גמר\server\TimeBank\TimeBank\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\This_user\Desktop\הנדסאים\פרויקט גמר\server\TimeBank\TimeBank\obj\Debug\net5.0\TimeBank.csproj.AssemblyReference.cache
+C:\Users\This_user\Desktop\הנדסאים\פרויקט גמר\server\TimeBank\TimeBank\obj\Debug\net5.0\TimeBank.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\This_user\Desktop\הנדסאים\פרויקט גמר\server\TimeBank\TimeBank\obj\Debug\net5.0\TimeBank.AssemblyInfoInputs.cache
+C:\Users\This_user\Desktop\הנדסאים\פרויקט גמר\server\TimeBank\TimeBank\obj\Debug\net5.0\TimeBank.AssemblyInfo.cs
+C:\Users\This_user\Desktop\הנדסאים\פרויקט גמר\server\TimeBank\TimeBank\obj\Debug\net5.0\TimeBank.csproj.CoreCompileInputs.cache
+C:\Users\This_user\Desktop\הנדסאים\פרויקט גמר\server\TimeBank\TimeBank\obj\Debug\net5.0\TimeBank.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\This_user\Desktop\הנדסאים\פרויקט גמר\server\TimeBank\TimeBank\obj\Debug\net5.0\TimeBank.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\This_user\Desktop\הנדסאים\פרויקט גמר\server\TimeBank\TimeBank\obj\Debug\net5.0\staticwebassets\TimeBank.StaticWebAssets.Manifest.cache
+C:\Users\This_user\Desktop\הנדסאים\פרויקט גמר\server\TimeBank\TimeBank\obj\Debug\net5.0\staticwebassets\TimeBank.StaticWebAssets.xml
+C:\Users\This_user\Desktop\הנדסאים\פרויקט גמר\server\TimeBank\TimeBank\obj\Debug\net5.0\scopedcss\bundle\TimeBank.styles.css
+C:\Users\This_user\Desktop\הנדסאים\פרויקט גמר\server\TimeBank\TimeBank\obj\Debug\net5.0\TimeBank.RazorTargetAssemblyInfo.cache
+C:\Users\This_user\Desktop\הנדסאים\פרויקט גמר\server\TimeBank\TimeBank\obj\Debug\net5.0\TimeBank.csproj.CopyComplete
+C:\Users\This_user\Desktop\הנדסאים\פרויקט גמר\server\TimeBank\TimeBank\obj\Debug\net5.0\TimeBank.dll
+C:\Users\This_user\Desktop\הנדסאים\פרויקט גמר\server\TimeBank\TimeBank\obj\Debug\net5.0\ref\TimeBank.dll
+C:\Users\This_user\Desktop\הנדסאים\פרויקט גמר\server\TimeBank\TimeBank\obj\Debug\net5.0\TimeBank.pdb
+C:\Users\This_user\Desktop\הנדסאים\פרויקט גמר\server\TimeBank\TimeBank\obj\Debug\net5.0\TimeBank.genruntimeconfig.cache
+C:\Users\This_user\Desktop\הנדסאים\פרויקט גמר\server\TimeBank\TimeBank\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+C:\Users\This_user\Desktop\הנדסאים\פרויקט גמר\server\TimeBank\TimeBank\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\This_user\Desktop\הנדסאים\פרויקט גמר\server\TimeBank\TimeBank\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\This_user\Desktop\הנדסאים\פרויקט גמר\server\TimeBank\TimeBank\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\This_user\Desktop\הנדסאים\פרויקט גמר\server\TimeBank\TimeBank\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\This_user\Desktop\הנדסאים\פרויקט גמר\server\TimeBank\TimeBank\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+C:\Users\This_user\Desktop\הנדסאים\פרויקט גמר\server\TimeBank\TimeBank\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\This_user\Desktop\הנדסאים\פרויקט גמר\server\TimeBank\TimeBank\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\This_user\Desktop\הנדסאים\פרויקט גמר\server\TimeBank\TimeBank\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\This_user\Desktop\הנדסאים\פרויקט גמר\server\TimeBank\TimeBank\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\This_user\Desktop\הנדסאים\פרויקט גמר\server\TimeBank\TimeBank\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\This_user\Desktop\הנדסאים\פרויקט גמר\server\TimeBank\TimeBank\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\This_user\Desktop\הנדסאים\פרויקט גמר\server\TimeBank\TimeBank\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\This_user\Desktop\הנדסאים\פרויקט גמר\server\TimeBank\TimeBank\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\This_user\Desktop\הנדסאים\פרויקט גמר\server\TimeBank\TimeBank\bin\Debug\net5.0\System.Runtime.Caching.dll
+C:\Users\This_user\Desktop\הנדסאים\פרויקט גמר\server\TimeBank\TimeBank\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\This_user\Desktop\הנדסאים\פרויקט גמר\server\TimeBank\TimeBank\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\This_user\Desktop\הנדסאים\פרויקט גמר\server\TimeBank\TimeBank\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\This_user\Desktop\הנדסאים\פרויקט גמר\server\TimeBank\TimeBank\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\This_user\Desktop\הנדסאים\פרויקט גמר\server\TimeBank\TimeBank\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\This_user\Desktop\הנדסאים\פרויקט גמר\server\TimeBank\TimeBank\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\This_user\Desktop\הנדסאים\פרויקט גמר\server\TimeBank\TimeBank\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\This_user\Desktop\הנדסאים\פרויקט גמר\server\TimeBank\TimeBank\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\This_user\Desktop\הנדסאים\פרויקט גמר\server\TimeBank\TimeBank\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\This_user\Desktop\הנדסאים\פרויקט גמר\server\TimeBank\TimeBank\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\This_user\Desktop\הנדסאים\פרויקט גמר\server\TimeBank\TimeBank\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\This_user\Desktop\הנדסאים\פרויקט גמר\server\TimeBank\TimeBank\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\This_user\Desktop\הנדסאים\פרויקט גמר\server\TimeBank\TimeBank\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\This_user\Desktop\הנדסאים\פרויקט גמר\server\TimeBank\TimeBank\bin\Debug\net5.0\Bll.dll
+C:\Users\This_user\Desktop\הנדסאים\פרויקט גמר\server\TimeBank\TimeBank\bin\Debug\net5.0\Dal.dll
+C:\Users\This_user\Desktop\הנדסאים\פרויקט גמר\server\TimeBank\TimeBank\bin\Debug\net5.0\Dto.dll
+C:\Users\This_user\Desktop\הנדסאים\פרויקט גמר\server\TimeBank\TimeBank\bin\Debug\net5.0\Bll.pdb
+C:\Users\This_user\Desktop\הנדסאים\פרויקט גמר\server\TimeBank\TimeBank\bin\Debug\net5.0\Dal.pdb
+C:\Users\This_user\Desktop\הנדסאים\פרויקט גמר\server\TimeBank\TimeBank\bin\Debug\net5.0\Dto.pdb
+E:\TimeBank\TimeBank\obj\Debug\net5.0\TimeBank.csproj.AssemblyReference.cache
+E:\TimeBank\TimeBank\obj\Debug\net5.0\TimeBank.GeneratedMSBuildEditorConfig.editorconfig
+E:\TimeBank\TimeBank\obj\Debug\net5.0\TimeBank.AssemblyInfoInputs.cache
+E:\TimeBank\TimeBank\obj\Debug\net5.0\TimeBank.AssemblyInfo.cs
+E:\TimeBank\TimeBank\obj\Debug\net5.0\TimeBank.csproj.CoreCompileInputs.cache
+E:\TimeBank\TimeBank\obj\Debug\net5.0\TimeBank.MvcApplicationPartsAssemblyInfo.cs
+E:\TimeBank\TimeBank\obj\Debug\net5.0\TimeBank.MvcApplicationPartsAssemblyInfo.cache
+E:\TimeBank\TimeBank\obj\Debug\net5.0\TimeBank.dll
+E:\TimeBank\TimeBank\obj\Debug\net5.0\ref\TimeBank.dll
+E:\TimeBank\TimeBank\obj\Debug\net5.0\TimeBank.pdb
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\TimeBank\TimeBank\obj\Debug\net5.0\TimeBank.csproj.AssemblyReference.cache
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\TimeBank\TimeBank\obj\Debug\net5.0\TimeBank.GeneratedMSBuildEditorConfig.editorconfig
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\TimeBank\TimeBank\obj\Debug\net5.0\TimeBank.AssemblyInfoInputs.cache
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\TimeBank\TimeBank\obj\Debug\net5.0\TimeBank.AssemblyInfo.cs
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\TimeBank\TimeBank\obj\Debug\net5.0\TimeBank.csproj.CoreCompileInputs.cache
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\TimeBank\TimeBank\obj\Debug\net5.0\TimeBank.MvcApplicationPartsAssemblyInfo.cs
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\TimeBank\TimeBank\obj\Debug\net5.0\TimeBank.MvcApplicationPartsAssemblyInfo.cache
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\TimeBank\TimeBank\obj\Debug\net5.0\TimeBank.dll
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\TimeBank\TimeBank\obj\Debug\net5.0\ref\TimeBank.dll
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\TimeBank\TimeBank\obj\Debug\net5.0\TimeBank.pdb
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\TimeBank\TimeBank\bin\Debug\net5.0\appsettings.Development.json
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\TimeBank\TimeBank\bin\Debug\net5.0\appsettings.json
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\TimeBank\TimeBank\bin\Debug\net5.0\TimeBank.exe
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\TimeBank\TimeBank\bin\Debug\net5.0\TimeBank.deps.json
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\TimeBank\TimeBank\bin\Debug\net5.0\TimeBank.runtimeconfig.json
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\TimeBank\TimeBank\bin\Debug\net5.0\TimeBank.runtimeconfig.dev.json
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\TimeBank\TimeBank\bin\Debug\net5.0\TimeBank.dll
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\TimeBank\TimeBank\bin\Debug\net5.0\ref\TimeBank.dll
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\TimeBank\TimeBank\bin\Debug\net5.0\TimeBank.pdb
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\TimeBank\TimeBank\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\TimeBank\TimeBank\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\TimeBank\TimeBank\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\TimeBank\TimeBank\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\TimeBank\TimeBank\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\TimeBank\TimeBank\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\TimeBank\TimeBank\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\TimeBank\TimeBank\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\TimeBank\TimeBank\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\TimeBank\TimeBank\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\TimeBank\TimeBank\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\TimeBank\TimeBank\bin\Debug\net5.0\Microsoft.OpenApi.dll
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\TimeBank\TimeBank\bin\Debug\net5.0\Newtonsoft.Json.dll
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\TimeBank\TimeBank\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\TimeBank\TimeBank\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\TimeBank\TimeBank\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\TimeBank\TimeBank\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\TimeBank\TimeBank\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\TimeBank\TimeBank\bin\Debug\net5.0\System.Runtime.Caching.dll
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\TimeBank\TimeBank\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\TimeBank\TimeBank\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\TimeBank\TimeBank\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\TimeBank\TimeBank\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\TimeBank\TimeBank\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\TimeBank\TimeBank\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\TimeBank\TimeBank\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\TimeBank\TimeBank\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\TimeBank\TimeBank\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\TimeBank\TimeBank\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\TimeBank\TimeBank\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\TimeBank\TimeBank\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\TimeBank\TimeBank\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\TimeBank\TimeBank\bin\Debug\net5.0\Bll.dll
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\TimeBank\TimeBank\bin\Debug\net5.0\Dal.dll
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\TimeBank\TimeBank\bin\Debug\net5.0\Dto.dll
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\TimeBank\TimeBank\bin\Debug\net5.0\Bll.pdb
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\TimeBank\TimeBank\bin\Debug\net5.0\Dal.pdb
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\TimeBank\TimeBank\bin\Debug\net5.0\Dto.pdb
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\TimeBank\TimeBank\obj\Debug\net5.0\staticwebassets\TimeBank.StaticWebAssets.Manifest.cache
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\TimeBank\TimeBank\obj\Debug\net5.0\staticwebassets\TimeBank.StaticWebAssets.xml
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\TimeBank\TimeBank\obj\Debug\net5.0\scopedcss\bundle\TimeBank.styles.css
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\TimeBank\TimeBank\obj\Debug\net5.0\TimeBank.RazorTargetAssemblyInfo.cache
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\TimeBank\TimeBank\obj\Debug\net5.0\TimeBank.csproj.CopyComplete
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\TimeBank\TimeBank\obj\Debug\net5.0\TimeBank.genruntimeconfig.cache
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\server\TimeBank\TimeBank\bin\Debug\net5.0\appsettings.Development.json
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\server\TimeBank\TimeBank\bin\Debug\net5.0\appsettings.json
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\server\TimeBank\TimeBank\bin\Debug\net5.0\TimeBank.exe
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\server\TimeBank\TimeBank\bin\Debug\net5.0\TimeBank.deps.json
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\server\TimeBank\TimeBank\bin\Debug\net5.0\TimeBank.runtimeconfig.json
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\server\TimeBank\TimeBank\bin\Debug\net5.0\TimeBank.runtimeconfig.dev.json
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\server\TimeBank\TimeBank\bin\Debug\net5.0\TimeBank.dll
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\server\TimeBank\TimeBank\bin\Debug\net5.0\ref\TimeBank.dll
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\server\TimeBank\TimeBank\bin\Debug\net5.0\TimeBank.pdb
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\server\TimeBank\TimeBank\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\server\TimeBank\TimeBank\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\server\TimeBank\TimeBank\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\server\TimeBank\TimeBank\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\server\TimeBank\TimeBank\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\server\TimeBank\TimeBank\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\server\TimeBank\TimeBank\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\server\TimeBank\TimeBank\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\server\TimeBank\TimeBank\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\server\TimeBank\TimeBank\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\server\TimeBank\TimeBank\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\server\TimeBank\TimeBank\bin\Debug\net5.0\Microsoft.OpenApi.dll
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\server\TimeBank\TimeBank\bin\Debug\net5.0\Newtonsoft.Json.dll
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\server\TimeBank\TimeBank\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\server\TimeBank\TimeBank\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\server\TimeBank\TimeBank\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\server\TimeBank\TimeBank\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\server\TimeBank\TimeBank\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\server\TimeBank\TimeBank\bin\Debug\net5.0\System.Runtime.Caching.dll
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\server\TimeBank\TimeBank\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\server\TimeBank\TimeBank\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\server\TimeBank\TimeBank\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\server\TimeBank\TimeBank\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\server\TimeBank\TimeBank\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\server\TimeBank\TimeBank\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\server\TimeBank\TimeBank\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\server\TimeBank\TimeBank\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\server\TimeBank\TimeBank\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\server\TimeBank\TimeBank\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\server\TimeBank\TimeBank\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\server\TimeBank\TimeBank\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\server\TimeBank\TimeBank\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\server\TimeBank\TimeBank\bin\Debug\net5.0\Bll.dll
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\server\TimeBank\TimeBank\bin\Debug\net5.0\Dal.dll
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\server\TimeBank\TimeBank\bin\Debug\net5.0\Dto.dll
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\server\TimeBank\TimeBank\bin\Debug\net5.0\Bll.pdb
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\server\TimeBank\TimeBank\bin\Debug\net5.0\Dal.pdb
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\server\TimeBank\TimeBank\bin\Debug\net5.0\Dto.pdb
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\server\TimeBank\TimeBank\obj\Debug\net5.0\TimeBank.csproj.AssemblyReference.cache
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\server\TimeBank\TimeBank\obj\Debug\net5.0\TimeBank.GeneratedMSBuildEditorConfig.editorconfig
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\server\TimeBank\TimeBank\obj\Debug\net5.0\TimeBank.AssemblyInfoInputs.cache
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\server\TimeBank\TimeBank\obj\Debug\net5.0\TimeBank.AssemblyInfo.cs
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\server\TimeBank\TimeBank\obj\Debug\net5.0\TimeBank.csproj.CoreCompileInputs.cache
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\server\TimeBank\TimeBank\obj\Debug\net5.0\TimeBank.MvcApplicationPartsAssemblyInfo.cs
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\server\TimeBank\TimeBank\obj\Debug\net5.0\TimeBank.MvcApplicationPartsAssemblyInfo.cache
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\server\TimeBank\TimeBank\obj\Debug\net5.0\staticwebassets\TimeBank.StaticWebAssets.Manifest.cache
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\server\TimeBank\TimeBank\obj\Debug\net5.0\staticwebassets\TimeBank.StaticWebAssets.xml
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\server\TimeBank\TimeBank\obj\Debug\net5.0\scopedcss\bundle\TimeBank.styles.css
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\server\TimeBank\TimeBank\obj\Debug\net5.0\TimeBank.RazorTargetAssemblyInfo.cache
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\server\TimeBank\TimeBank\obj\Debug\net5.0\TimeBank.csproj.CopyComplete
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\server\TimeBank\TimeBank\obj\Debug\net5.0\TimeBank.dll
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\server\TimeBank\TimeBank\obj\Debug\net5.0\ref\TimeBank.dll
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\server\TimeBank\TimeBank\obj\Debug\net5.0\TimeBank.pdb
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\server\TimeBank\TimeBank\obj\Debug\net5.0\TimeBank.genruntimeconfig.cache
+C:\Users\This_user\Documents\GitHub\TimeBankP\server\TimeBank\TimeBank\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\This_user\Documents\GitHub\TimeBankP\server\TimeBank\TimeBank\bin\Debug\net5.0\appsettings.json
+C:\Users\This_user\Documents\GitHub\TimeBankP\server\TimeBank\TimeBank\bin\Debug\net5.0\TimeBank.exe
+C:\Users\This_user\Documents\GitHub\TimeBankP\server\TimeBank\TimeBank\bin\Debug\net5.0\TimeBank.deps.json
+C:\Users\This_user\Documents\GitHub\TimeBankP\server\TimeBank\TimeBank\bin\Debug\net5.0\TimeBank.runtimeconfig.json
+C:\Users\This_user\Documents\GitHub\TimeBankP\server\TimeBank\TimeBank\bin\Debug\net5.0\TimeBank.runtimeconfig.dev.json
+C:\Users\This_user\Documents\GitHub\TimeBankP\server\TimeBank\TimeBank\bin\Debug\net5.0\TimeBank.dll
+C:\Users\This_user\Documents\GitHub\TimeBankP\server\TimeBank\TimeBank\bin\Debug\net5.0\ref\TimeBank.dll
+C:\Users\This_user\Documents\GitHub\TimeBankP\server\TimeBank\TimeBank\bin\Debug\net5.0\TimeBank.pdb
+C:\Users\This_user\Documents\GitHub\TimeBankP\server\TimeBank\TimeBank\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+C:\Users\This_user\Documents\GitHub\TimeBankP\server\TimeBank\TimeBank\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\This_user\Documents\GitHub\TimeBankP\server\TimeBank\TimeBank\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\This_user\Documents\GitHub\TimeBankP\server\TimeBank\TimeBank\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\This_user\Documents\GitHub\TimeBankP\server\TimeBank\TimeBank\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\This_user\Documents\GitHub\TimeBankP\server\TimeBank\TimeBank\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+C:\Users\This_user\Documents\GitHub\TimeBankP\server\TimeBank\TimeBank\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\This_user\Documents\GitHub\TimeBankP\server\TimeBank\TimeBank\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\This_user\Documents\GitHub\TimeBankP\server\TimeBank\TimeBank\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\This_user\Documents\GitHub\TimeBankP\server\TimeBank\TimeBank\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\This_user\Documents\GitHub\TimeBankP\server\TimeBank\TimeBank\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\This_user\Documents\GitHub\TimeBankP\server\TimeBank\TimeBank\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\Users\This_user\Documents\GitHub\TimeBankP\server\TimeBank\TimeBank\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\This_user\Documents\GitHub\TimeBankP\server\TimeBank\TimeBank\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\This_user\Documents\GitHub\TimeBankP\server\TimeBank\TimeBank\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\This_user\Documents\GitHub\TimeBankP\server\TimeBank\TimeBank\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\This_user\Documents\GitHub\TimeBankP\server\TimeBank\TimeBank\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\This_user\Documents\GitHub\TimeBankP\server\TimeBank\TimeBank\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\This_user\Documents\GitHub\TimeBankP\server\TimeBank\TimeBank\bin\Debug\net5.0\System.Runtime.Caching.dll
+C:\Users\This_user\Documents\GitHub\TimeBankP\server\TimeBank\TimeBank\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\This_user\Documents\GitHub\TimeBankP\server\TimeBank\TimeBank\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\This_user\Documents\GitHub\TimeBankP\server\TimeBank\TimeBank\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\This_user\Documents\GitHub\TimeBankP\server\TimeBank\TimeBank\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\This_user\Documents\GitHub\TimeBankP\server\TimeBank\TimeBank\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\This_user\Documents\GitHub\TimeBankP\server\TimeBank\TimeBank\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\This_user\Documents\GitHub\TimeBankP\server\TimeBank\TimeBank\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\This_user\Documents\GitHub\TimeBankP\server\TimeBank\TimeBank\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\This_user\Documents\GitHub\TimeBankP\server\TimeBank\TimeBank\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\This_user\Documents\GitHub\TimeBankP\server\TimeBank\TimeBank\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\This_user\Documents\GitHub\TimeBankP\server\TimeBank\TimeBank\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\This_user\Documents\GitHub\TimeBankP\server\TimeBank\TimeBank\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\This_user\Documents\GitHub\TimeBankP\server\TimeBank\TimeBank\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\This_user\Documents\GitHub\TimeBankP\server\TimeBank\TimeBank\bin\Debug\net5.0\Bll.dll
+C:\Users\This_user\Documents\GitHub\TimeBankP\server\TimeBank\TimeBank\bin\Debug\net5.0\Dal.dll
+C:\Users\This_user\Documents\GitHub\TimeBankP\server\TimeBank\TimeBank\bin\Debug\net5.0\Dto.dll
+C:\Users\This_user\Documents\GitHub\TimeBankP\server\TimeBank\TimeBank\bin\Debug\net5.0\Bll.pdb
+C:\Users\This_user\Documents\GitHub\TimeBankP\server\TimeBank\TimeBank\bin\Debug\net5.0\Dal.pdb
+C:\Users\This_user\Documents\GitHub\TimeBankP\server\TimeBank\TimeBank\bin\Debug\net5.0\Dto.pdb
+C:\Users\This_user\Documents\GitHub\TimeBankP\server\TimeBank\TimeBank\obj\Debug\net5.0\TimeBank.csproj.AssemblyReference.cache
+C:\Users\This_user\Documents\GitHub\TimeBankP\server\TimeBank\TimeBank\obj\Debug\net5.0\TimeBank.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\This_user\Documents\GitHub\TimeBankP\server\TimeBank\TimeBank\obj\Debug\net5.0\TimeBank.AssemblyInfoInputs.cache
+C:\Users\This_user\Documents\GitHub\TimeBankP\server\TimeBank\TimeBank\obj\Debug\net5.0\TimeBank.AssemblyInfo.cs
+C:\Users\This_user\Documents\GitHub\TimeBankP\server\TimeBank\TimeBank\obj\Debug\net5.0\TimeBank.csproj.CoreCompileInputs.cache
+C:\Users\This_user\Documents\GitHub\TimeBankP\server\TimeBank\TimeBank\obj\Debug\net5.0\TimeBank.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\This_user\Documents\GitHub\TimeBankP\server\TimeBank\TimeBank\obj\Debug\net5.0\TimeBank.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\This_user\Documents\GitHub\TimeBankP\server\TimeBank\TimeBank\obj\Debug\net5.0\staticwebassets\TimeBank.StaticWebAssets.Manifest.cache
+C:\Users\This_user\Documents\GitHub\TimeBankP\server\TimeBank\TimeBank\obj\Debug\net5.0\staticwebassets\TimeBank.StaticWebAssets.xml
+C:\Users\This_user\Documents\GitHub\TimeBankP\server\TimeBank\TimeBank\obj\Debug\net5.0\scopedcss\bundle\TimeBank.styles.css
+C:\Users\This_user\Documents\GitHub\TimeBankP\server\TimeBank\TimeBank\obj\Debug\net5.0\TimeBank.RazorTargetAssemblyInfo.cache
+C:\Users\This_user\Documents\GitHub\TimeBankP\server\TimeBank\TimeBank\obj\Debug\net5.0\TimeBank.csproj.CopyComplete
+C:\Users\This_user\Documents\GitHub\TimeBankP\server\TimeBank\TimeBank\obj\Debug\net5.0\TimeBank.dll
+C:\Users\This_user\Documents\GitHub\TimeBankP\server\TimeBank\TimeBank\obj\Debug\net5.0\ref\TimeBank.dll
+C:\Users\This_user\Documents\GitHub\TimeBankP\server\TimeBank\TimeBank\obj\Debug\net5.0\TimeBank.pdb
+C:\Users\This_user\Documents\GitHub\TimeBankP\server\TimeBank\TimeBank\obj\Debug\net5.0\TimeBank.genruntimeconfig.cache
+D:\מסלול\‏‏שנה ב\bank Time in git\TimeBankP\server\TimeBank\TimeBank\bin\Debug\net5.0\appsettings.Development.json
+D:\מסלול\‏‏שנה ב\bank Time in git\TimeBankP\server\TimeBank\TimeBank\bin\Debug\net5.0\appsettings.json
+D:\מסלול\‏‏שנה ב\bank Time in git\TimeBankP\server\TimeBank\TimeBank\bin\Debug\net5.0\TimeBank.exe
+D:\מסלול\‏‏שנה ב\bank Time in git\TimeBankP\server\TimeBank\TimeBank\bin\Debug\net5.0\TimeBank.deps.json
+D:\מסלול\‏‏שנה ב\bank Time in git\TimeBankP\server\TimeBank\TimeBank\bin\Debug\net5.0\TimeBank.runtimeconfig.json
+D:\מסלול\‏‏שנה ב\bank Time in git\TimeBankP\server\TimeBank\TimeBank\bin\Debug\net5.0\TimeBank.runtimeconfig.dev.json
+D:\מסלול\‏‏שנה ב\bank Time in git\TimeBankP\server\TimeBank\TimeBank\bin\Debug\net5.0\TimeBank.dll
+D:\מסלול\‏‏שנה ב\bank Time in git\TimeBankP\server\TimeBank\TimeBank\bin\Debug\net5.0\ref\TimeBank.dll
+D:\מסלול\‏‏שנה ב\bank Time in git\TimeBankP\server\TimeBank\TimeBank\bin\Debug\net5.0\TimeBank.pdb
+D:\מסלול\‏‏שנה ב\bank Time in git\TimeBankP\server\TimeBank\TimeBank\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+D:\מסלול\‏‏שנה ב\bank Time in git\TimeBankP\server\TimeBank\TimeBank\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+D:\מסלול\‏‏שנה ב\bank Time in git\TimeBankP\server\TimeBank\TimeBank\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\מסלול\‏‏שנה ב\bank Time in git\TimeBankP\server\TimeBank\TimeBank\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\מסלול\‏‏שנה ב\bank Time in git\TimeBankP\server\TimeBank\TimeBank\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\מסלול\‏‏שנה ב\bank Time in git\TimeBankP\server\TimeBank\TimeBank\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+D:\מסלול\‏‏שנה ב\bank Time in git\TimeBankP\server\TimeBank\TimeBank\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\מסלול\‏‏שנה ב\bank Time in git\TimeBankP\server\TimeBank\TimeBank\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+D:\מסלול\‏‏שנה ב\bank Time in git\TimeBankP\server\TimeBank\TimeBank\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+D:\מסלול\‏‏שנה ב\bank Time in git\TimeBankP\server\TimeBank\TimeBank\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\מסלול\‏‏שנה ב\bank Time in git\TimeBankP\server\TimeBank\TimeBank\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+D:\מסלול\‏‏שנה ב\bank Time in git\TimeBankP\server\TimeBank\TimeBank\bin\Debug\net5.0\Microsoft.OpenApi.dll
+D:\מסלול\‏‏שנה ב\bank Time in git\TimeBankP\server\TimeBank\TimeBank\bin\Debug\net5.0\Newtonsoft.Json.dll
+D:\מסלול\‏‏שנה ב\bank Time in git\TimeBankP\server\TimeBank\TimeBank\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\מסלול\‏‏שנה ב\bank Time in git\TimeBankP\server\TimeBank\TimeBank\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\מסלול\‏‏שנה ב\bank Time in git\TimeBankP\server\TimeBank\TimeBank\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\מסלול\‏‏שנה ב\bank Time in git\TimeBankP\server\TimeBank\TimeBank\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+D:\מסלול\‏‏שנה ב\bank Time in git\TimeBankP\server\TimeBank\TimeBank\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+D:\מסלול\‏‏שנה ב\bank Time in git\TimeBankP\server\TimeBank\TimeBank\bin\Debug\net5.0\System.Runtime.Caching.dll
+D:\מסלול\‏‏שנה ב\bank Time in git\TimeBankP\server\TimeBank\TimeBank\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+D:\מסלול\‏‏שנה ב\bank Time in git\TimeBankP\server\TimeBank\TimeBank\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\מסלול\‏‏שנה ב\bank Time in git\TimeBankP\server\TimeBank\TimeBank\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\מסלול\‏‏שנה ב\bank Time in git\TimeBankP\server\TimeBank\TimeBank\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\מסלול\‏‏שנה ב\bank Time in git\TimeBankP\server\TimeBank\TimeBank\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\מסלול\‏‏שנה ב\bank Time in git\TimeBankP\server\TimeBank\TimeBank\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\מסלול\‏‏שנה ב\bank Time in git\TimeBankP\server\TimeBank\TimeBank\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\מסלול\‏‏שנה ב\bank Time in git\TimeBankP\server\TimeBank\TimeBank\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\מסלול\‏‏שנה ב\bank Time in git\TimeBankP\server\TimeBank\TimeBank\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\מסלול\‏‏שנה ב\bank Time in git\TimeBankP\server\TimeBank\TimeBank\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\מסלול\‏‏שנה ב\bank Time in git\TimeBankP\server\TimeBank\TimeBank\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\מסלול\‏‏שנה ב\bank Time in git\TimeBankP\server\TimeBank\TimeBank\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\מסלול\‏‏שנה ב\bank Time in git\TimeBankP\server\TimeBank\TimeBank\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\מסלול\‏‏שנה ב\bank Time in git\TimeBankP\server\TimeBank\TimeBank\bin\Debug\net5.0\Bll.dll
+D:\מסלול\‏‏שנה ב\bank Time in git\TimeBankP\server\TimeBank\TimeBank\bin\Debug\net5.0\Dal.dll
+D:\מסלול\‏‏שנה ב\bank Time in git\TimeBankP\server\TimeBank\TimeBank\bin\Debug\net5.0\Dto.dll
+D:\מסלול\‏‏שנה ב\bank Time in git\TimeBankP\server\TimeBank\TimeBank\bin\Debug\net5.0\Bll.pdb
+D:\מסלול\‏‏שנה ב\bank Time in git\TimeBankP\server\TimeBank\TimeBank\bin\Debug\net5.0\Dal.pdb
+D:\מסלול\‏‏שנה ב\bank Time in git\TimeBankP\server\TimeBank\TimeBank\bin\Debug\net5.0\Dto.pdb
+D:\מסלול\‏‏שנה ב\bank Time in git\TimeBankP\server\TimeBank\TimeBank\obj\Debug\net5.0\TimeBank.csproj.AssemblyReference.cache
+D:\מסלול\‏‏שנה ב\bank Time in git\TimeBankP\server\TimeBank\TimeBank\obj\Debug\net5.0\TimeBank.GeneratedMSBuildEditorConfig.editorconfig
+D:\מסלול\‏‏שנה ב\bank Time in git\TimeBankP\server\TimeBank\TimeBank\obj\Debug\net5.0\TimeBank.AssemblyInfoInputs.cache
+D:\מסלול\‏‏שנה ב\bank Time in git\TimeBankP\server\TimeBank\TimeBank\obj\Debug\net5.0\TimeBank.AssemblyInfo.cs
+D:\מסלול\‏‏שנה ב\bank Time in git\TimeBankP\server\TimeBank\TimeBank\obj\Debug\net5.0\TimeBank.csproj.CoreCompileInputs.cache
+D:\מסלול\‏‏שנה ב\bank Time in git\TimeBankP\server\TimeBank\TimeBank\obj\Debug\net5.0\TimeBank.MvcApplicationPartsAssemblyInfo.cs
+D:\מסלול\‏‏שנה ב\bank Time in git\TimeBankP\server\TimeBank\TimeBank\obj\Debug\net5.0\TimeBank.MvcApplicationPartsAssemblyInfo.cache
+D:\מסלול\‏‏שנה ב\bank Time in git\TimeBankP\server\TimeBank\TimeBank\obj\Debug\net5.0\staticwebassets\TimeBank.StaticWebAssets.Manifest.cache
+D:\מסלול\‏‏שנה ב\bank Time in git\TimeBankP\server\TimeBank\TimeBank\obj\Debug\net5.0\staticwebassets\TimeBank.StaticWebAssets.xml
+D:\מסלול\‏‏שנה ב\bank Time in git\TimeBankP\server\TimeBank\TimeBank\obj\Debug\net5.0\scopedcss\bundle\TimeBank.styles.css
+D:\מסלול\‏‏שנה ב\bank Time in git\TimeBankP\server\TimeBank\TimeBank\obj\Debug\net5.0\TimeBank.RazorTargetAssemblyInfo.cache
+D:\מסלול\‏‏שנה ב\bank Time in git\TimeBankP\server\TimeBank\TimeBank\obj\Debug\net5.0\TimeBank.csproj.CopyComplete
+D:\מסלול\‏‏שנה ב\bank Time in git\TimeBankP\server\TimeBank\TimeBank\obj\Debug\net5.0\TimeBank.dll
+D:\מסלול\‏‏שנה ב\bank Time in git\TimeBankP\server\TimeBank\TimeBank\obj\Debug\net5.0\ref\TimeBank.dll
+D:\מסלול\‏‏שנה ב\bank Time in git\TimeBankP\server\TimeBank\TimeBank\obj\Debug\net5.0\TimeBank.pdb
+D:\מסלול\‏‏שנה ב\bank Time in git\TimeBankP\server\TimeBank\TimeBank\obj\Debug\net5.0\TimeBank.genruntimeconfig.cache
+D:\TimeBank\server\TimeBank\TimeBank\bin\Debug\net5.0\appsettings.Development.json
+D:\TimeBank\server\TimeBank\TimeBank\bin\Debug\net5.0\appsettings.json
+D:\TimeBank\server\TimeBank\TimeBank\bin\Debug\net5.0\TimeBank.exe
+D:\TimeBank\server\TimeBank\TimeBank\bin\Debug\net5.0\TimeBank.deps.json
+D:\TimeBank\server\TimeBank\TimeBank\bin\Debug\net5.0\TimeBank.runtimeconfig.json
+D:\TimeBank\server\TimeBank\TimeBank\bin\Debug\net5.0\TimeBank.runtimeconfig.dev.json
+D:\TimeBank\server\TimeBank\TimeBank\bin\Debug\net5.0\TimeBank.dll
+D:\TimeBank\server\TimeBank\TimeBank\bin\Debug\net5.0\ref\TimeBank.dll
+D:\TimeBank\server\TimeBank\TimeBank\bin\Debug\net5.0\TimeBank.pdb
+D:\TimeBank\server\TimeBank\TimeBank\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+D:\TimeBank\server\TimeBank\TimeBank\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+D:\TimeBank\server\TimeBank\TimeBank\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\TimeBank\server\TimeBank\TimeBank\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\TimeBank\server\TimeBank\TimeBank\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\TimeBank\server\TimeBank\TimeBank\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+D:\TimeBank\server\TimeBank\TimeBank\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\TimeBank\server\TimeBank\TimeBank\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+D:\TimeBank\server\TimeBank\TimeBank\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+D:\TimeBank\server\TimeBank\TimeBank\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\TimeBank\server\TimeBank\TimeBank\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+D:\TimeBank\server\TimeBank\TimeBank\bin\Debug\net5.0\Microsoft.OpenApi.dll
+D:\TimeBank\server\TimeBank\TimeBank\bin\Debug\net5.0\Newtonsoft.Json.dll
+D:\TimeBank\server\TimeBank\TimeBank\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\TimeBank\server\TimeBank\TimeBank\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\TimeBank\server\TimeBank\TimeBank\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\TimeBank\server\TimeBank\TimeBank\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+D:\TimeBank\server\TimeBank\TimeBank\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+D:\TimeBank\server\TimeBank\TimeBank\bin\Debug\net5.0\System.Runtime.Caching.dll
+D:\TimeBank\server\TimeBank\TimeBank\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+D:\TimeBank\server\TimeBank\TimeBank\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\TimeBank\server\TimeBank\TimeBank\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\TimeBank\server\TimeBank\TimeBank\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\TimeBank\server\TimeBank\TimeBank\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\TimeBank\server\TimeBank\TimeBank\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\TimeBank\server\TimeBank\TimeBank\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\TimeBank\server\TimeBank\TimeBank\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\TimeBank\server\TimeBank\TimeBank\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\TimeBank\server\TimeBank\TimeBank\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\TimeBank\server\TimeBank\TimeBank\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\TimeBank\server\TimeBank\TimeBank\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\TimeBank\server\TimeBank\TimeBank\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\TimeBank\server\TimeBank\TimeBank\bin\Debug\net5.0\Bll.dll
+D:\TimeBank\server\TimeBank\TimeBank\bin\Debug\net5.0\Dal.dll
+D:\TimeBank\server\TimeBank\TimeBank\bin\Debug\net5.0\Dto.dll
+D:\TimeBank\server\TimeBank\TimeBank\bin\Debug\net5.0\Bll.pdb
+D:\TimeBank\server\TimeBank\TimeBank\bin\Debug\net5.0\Dal.pdb
+D:\TimeBank\server\TimeBank\TimeBank\bin\Debug\net5.0\Dto.pdb
+D:\TimeBank\server\TimeBank\TimeBank\obj\Debug\net5.0\TimeBank.csproj.AssemblyReference.cache
+D:\TimeBank\server\TimeBank\TimeBank\obj\Debug\net5.0\TimeBank.GeneratedMSBuildEditorConfig.editorconfig
+D:\TimeBank\server\TimeBank\TimeBank\obj\Debug\net5.0\TimeBank.AssemblyInfoInputs.cache
+D:\TimeBank\server\TimeBank\TimeBank\obj\Debug\net5.0\TimeBank.AssemblyInfo.cs
+D:\TimeBank\server\TimeBank\TimeBank\obj\Debug\net5.0\TimeBank.csproj.CoreCompileInputs.cache
+D:\TimeBank\server\TimeBank\TimeBank\obj\Debug\net5.0\TimeBank.MvcApplicationPartsAssemblyInfo.cs
+D:\TimeBank\server\TimeBank\TimeBank\obj\Debug\net5.0\TimeBank.MvcApplicationPartsAssemblyInfo.cache
+D:\TimeBank\server\TimeBank\TimeBank\obj\Debug\net5.0\staticwebassets\TimeBank.StaticWebAssets.Manifest.cache
+D:\TimeBank\server\TimeBank\TimeBank\obj\Debug\net5.0\staticwebassets\TimeBank.StaticWebAssets.xml
+D:\TimeBank\server\TimeBank\TimeBank\obj\Debug\net5.0\scopedcss\bundle\TimeBank.styles.css
+D:\TimeBank\server\TimeBank\TimeBank\obj\Debug\net5.0\TimeBank.RazorTargetAssemblyInfo.cache
+D:\TimeBank\server\TimeBank\TimeBank\obj\Debug\net5.0\TimeBank.csproj.CopyComplete
+D:\TimeBank\server\TimeBank\TimeBank\obj\Debug\net5.0\TimeBank.dll
+D:\TimeBank\server\TimeBank\TimeBank\obj\Debug\net5.0\ref\TimeBank.dll
+D:\TimeBank\server\TimeBank\TimeBank\obj\Debug\net5.0\TimeBank.pdb
+D:\TimeBank\server\TimeBank\TimeBank\obj\Debug\net5.0\TimeBank.genruntimeconfig.cache
+D:\דיני\TimeBank\server\TimeBank\TimeBank\bin\Debug\net5.0\appsettings.Development.json
+D:\דיני\TimeBank\server\TimeBank\TimeBank\bin\Debug\net5.0\appsettings.json
+D:\דיני\TimeBank\server\TimeBank\TimeBank\bin\Debug\net5.0\TimeBank.exe
+D:\דיני\TimeBank\server\TimeBank\TimeBank\bin\Debug\net5.0\TimeBank.deps.json
+D:\דיני\TimeBank\server\TimeBank\TimeBank\bin\Debug\net5.0\TimeBank.runtimeconfig.json
+D:\דיני\TimeBank\server\TimeBank\TimeBank\bin\Debug\net5.0\TimeBank.runtimeconfig.dev.json
+D:\דיני\TimeBank\server\TimeBank\TimeBank\bin\Debug\net5.0\TimeBank.dll
+D:\דיני\TimeBank\server\TimeBank\TimeBank\bin\Debug\net5.0\ref\TimeBank.dll
+D:\דיני\TimeBank\server\TimeBank\TimeBank\bin\Debug\net5.0\TimeBank.pdb
+D:\דיני\TimeBank\server\TimeBank\TimeBank\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+D:\דיני\TimeBank\server\TimeBank\TimeBank\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+D:\דיני\TimeBank\server\TimeBank\TimeBank\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\דיני\TimeBank\server\TimeBank\TimeBank\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\דיני\TimeBank\server\TimeBank\TimeBank\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\דיני\TimeBank\server\TimeBank\TimeBank\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+D:\דיני\TimeBank\server\TimeBank\TimeBank\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\דיני\TimeBank\server\TimeBank\TimeBank\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+D:\דיני\TimeBank\server\TimeBank\TimeBank\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+D:\דיני\TimeBank\server\TimeBank\TimeBank\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\דיני\TimeBank\server\TimeBank\TimeBank\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+D:\דיני\TimeBank\server\TimeBank\TimeBank\bin\Debug\net5.0\Microsoft.OpenApi.dll
+D:\דיני\TimeBank\server\TimeBank\TimeBank\bin\Debug\net5.0\Newtonsoft.Json.dll
+D:\דיני\TimeBank\server\TimeBank\TimeBank\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\דיני\TimeBank\server\TimeBank\TimeBank\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\דיני\TimeBank\server\TimeBank\TimeBank\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\דיני\TimeBank\server\TimeBank\TimeBank\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+D:\דיני\TimeBank\server\TimeBank\TimeBank\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+D:\דיני\TimeBank\server\TimeBank\TimeBank\bin\Debug\net5.0\System.Runtime.Caching.dll
+D:\דיני\TimeBank\server\TimeBank\TimeBank\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+D:\דיני\TimeBank\server\TimeBank\TimeBank\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\דיני\TimeBank\server\TimeBank\TimeBank\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\דיני\TimeBank\server\TimeBank\TimeBank\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\דיני\TimeBank\server\TimeBank\TimeBank\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\דיני\TimeBank\server\TimeBank\TimeBank\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\דיני\TimeBank\server\TimeBank\TimeBank\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\דיני\TimeBank\server\TimeBank\TimeBank\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\דיני\TimeBank\server\TimeBank\TimeBank\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\דיני\TimeBank\server\TimeBank\TimeBank\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\דיני\TimeBank\server\TimeBank\TimeBank\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\דיני\TimeBank\server\TimeBank\TimeBank\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\דיני\TimeBank\server\TimeBank\TimeBank\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\דיני\TimeBank\server\TimeBank\TimeBank\bin\Debug\net5.0\Bll.dll
+D:\דיני\TimeBank\server\TimeBank\TimeBank\bin\Debug\net5.0\Dal.dll
+D:\דיני\TimeBank\server\TimeBank\TimeBank\bin\Debug\net5.0\Dto.dll
+D:\דיני\TimeBank\server\TimeBank\TimeBank\bin\Debug\net5.0\Bll.pdb
+D:\דיני\TimeBank\server\TimeBank\TimeBank\bin\Debug\net5.0\Dal.pdb
+D:\דיני\TimeBank\server\TimeBank\TimeBank\bin\Debug\net5.0\Dto.pdb
+D:\דיני\TimeBank\server\TimeBank\TimeBank\obj\Debug\net5.0\TimeBank.csproj.AssemblyReference.cache
+D:\דיני\TimeBank\server\TimeBank\TimeBank\obj\Debug\net5.0\TimeBank.GeneratedMSBuildEditorConfig.editorconfig
+D:\דיני\TimeBank\server\TimeBank\TimeBank\obj\Debug\net5.0\TimeBank.AssemblyInfoInputs.cache
+D:\דיני\TimeBank\server\TimeBank\TimeBank\obj\Debug\net5.0\TimeBank.AssemblyInfo.cs
+D:\דיני\TimeBank\server\TimeBank\TimeBank\obj\Debug\net5.0\TimeBank.csproj.CoreCompileInputs.cache
+D:\דיני\TimeBank\server\TimeBank\TimeBank\obj\Debug\net5.0\TimeBank.MvcApplicationPartsAssemblyInfo.cs
+D:\דיני\TimeBank\server\TimeBank\TimeBank\obj\Debug\net5.0\TimeBank.MvcApplicationPartsAssemblyInfo.cache
+D:\דיני\TimeBank\server\TimeBank\TimeBank\obj\Debug\net5.0\staticwebassets\TimeBank.StaticWebAssets.Manifest.cache
+D:\דיני\TimeBank\server\TimeBank\TimeBank\obj\Debug\net5.0\staticwebassets\TimeBank.StaticWebAssets.xml
+D:\דיני\TimeBank\server\TimeBank\TimeBank\obj\Debug\net5.0\scopedcss\bundle\TimeBank.styles.css
+D:\דיני\TimeBank\server\TimeBank\TimeBank\obj\Debug\net5.0\TimeBank.RazorTargetAssemblyInfo.cache
+D:\דיני\TimeBank\server\TimeBank\TimeBank\obj\Debug\net5.0\TimeBank.csproj.CopyComplete
+D:\דיני\TimeBank\server\TimeBank\TimeBank\obj\Debug\net5.0\TimeBank.dll
+D:\דיני\TimeBank\server\TimeBank\TimeBank\obj\Debug\net5.0\ref\TimeBank.dll
+D:\דיני\TimeBank\server\TimeBank\TimeBank\obj\Debug\net5.0\TimeBank.pdb
+D:\דיני\TimeBank\server\TimeBank\TimeBank\obj\Debug\net5.0\TimeBank.genruntimeconfig.cache
+D:\דיני\TimeBank\backend\server\TimeBank\TimeBank\bin\Debug\net5.0\appsettings.Development.json
+D:\דיני\TimeBank\backend\server\TimeBank\TimeBank\bin\Debug\net5.0\appsettings.json
+D:\דיני\TimeBank\backend\server\TimeBank\TimeBank\bin\Debug\net5.0\TimeBank.StaticWebAssets.xml
+D:\דיני\TimeBank\backend\server\TimeBank\TimeBank\bin\Debug\net5.0\TimeBank.exe
+D:\דיני\TimeBank\backend\server\TimeBank\TimeBank\bin\Debug\net5.0\TimeBank.deps.json
+D:\דיני\TimeBank\backend\server\TimeBank\TimeBank\bin\Debug\net5.0\TimeBank.runtimeconfig.json
+D:\דיני\TimeBank\backend\server\TimeBank\TimeBank\bin\Debug\net5.0\TimeBank.runtimeconfig.dev.json
+D:\דיני\TimeBank\backend\server\TimeBank\TimeBank\bin\Debug\net5.0\TimeBank.dll
+D:\דיני\TimeBank\backend\server\TimeBank\TimeBank\bin\Debug\net5.0\TimeBank.pdb
+D:\דיני\TimeBank\backend\server\TimeBank\TimeBank\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+D:\דיני\TimeBank\backend\server\TimeBank\TimeBank\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+D:\דיני\TimeBank\backend\server\TimeBank\TimeBank\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\דיני\TimeBank\backend\server\TimeBank\TimeBank\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\דיני\TimeBank\backend\server\TimeBank\TimeBank\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\דיני\TimeBank\backend\server\TimeBank\TimeBank\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+D:\דיני\TimeBank\backend\server\TimeBank\TimeBank\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\דיני\TimeBank\backend\server\TimeBank\TimeBank\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+D:\דיני\TimeBank\backend\server\TimeBank\TimeBank\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+D:\דיני\TimeBank\backend\server\TimeBank\TimeBank\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\דיני\TimeBank\backend\server\TimeBank\TimeBank\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+D:\דיני\TimeBank\backend\server\TimeBank\TimeBank\bin\Debug\net5.0\Microsoft.OpenApi.dll
+D:\דיני\TimeBank\backend\server\TimeBank\TimeBank\bin\Debug\net5.0\Newtonsoft.Json.dll
+D:\דיני\TimeBank\backend\server\TimeBank\TimeBank\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\דיני\TimeBank\backend\server\TimeBank\TimeBank\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\דיני\TimeBank\backend\server\TimeBank\TimeBank\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\דיני\TimeBank\backend\server\TimeBank\TimeBank\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+D:\דיני\TimeBank\backend\server\TimeBank\TimeBank\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+D:\דיני\TimeBank\backend\server\TimeBank\TimeBank\bin\Debug\net5.0\System.Runtime.Caching.dll
+D:\דיני\TimeBank\backend\server\TimeBank\TimeBank\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+D:\דיני\TimeBank\backend\server\TimeBank\TimeBank\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\דיני\TimeBank\backend\server\TimeBank\TimeBank\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\דיני\TimeBank\backend\server\TimeBank\TimeBank\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\דיני\TimeBank\backend\server\TimeBank\TimeBank\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\דיני\TimeBank\backend\server\TimeBank\TimeBank\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\דיני\TimeBank\backend\server\TimeBank\TimeBank\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\דיני\TimeBank\backend\server\TimeBank\TimeBank\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\דיני\TimeBank\backend\server\TimeBank\TimeBank\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\דיני\TimeBank\backend\server\TimeBank\TimeBank\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\דיני\TimeBank\backend\server\TimeBank\TimeBank\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\דיני\TimeBank\backend\server\TimeBank\TimeBank\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\דיני\TimeBank\backend\server\TimeBank\TimeBank\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\דיני\TimeBank\backend\server\TimeBank\TimeBank\bin\Debug\net5.0\Bll.dll
+D:\דיני\TimeBank\backend\server\TimeBank\TimeBank\bin\Debug\net5.0\Dal.dll
+D:\דיני\TimeBank\backend\server\TimeBank\TimeBank\bin\Debug\net5.0\Dto.dll
+D:\דיני\TimeBank\backend\server\TimeBank\TimeBank\bin\Debug\net5.0\Bll.pdb
+D:\דיני\TimeBank\backend\server\TimeBank\TimeBank\bin\Debug\net5.0\Dal.pdb
+D:\דיני\TimeBank\backend\server\TimeBank\TimeBank\bin\Debug\net5.0\Dto.pdb
+D:\דיני\TimeBank\backend\server\TimeBank\TimeBank\obj\Debug\net5.0\TimeBank.csproj.AssemblyReference.cache
+D:\דיני\TimeBank\backend\server\TimeBank\TimeBank\obj\Debug\net5.0\TimeBank.GeneratedMSBuildEditorConfig.editorconfig
+D:\דיני\TimeBank\backend\server\TimeBank\TimeBank\obj\Debug\net5.0\TimeBank.AssemblyInfoInputs.cache
+D:\דיני\TimeBank\backend\server\TimeBank\TimeBank\obj\Debug\net5.0\TimeBank.AssemblyInfo.cs
+D:\דיני\TimeBank\backend\server\TimeBank\TimeBank\obj\Debug\net5.0\TimeBank.csproj.CoreCompileInputs.cache
+D:\דיני\TimeBank\backend\server\TimeBank\TimeBank\obj\Debug\net5.0\TimeBank.MvcApplicationPartsAssemblyInfo.cs
+D:\דיני\TimeBank\backend\server\TimeBank\TimeBank\obj\Debug\net5.0\TimeBank.MvcApplicationPartsAssemblyInfo.cache
+D:\דיני\TimeBank\backend\server\TimeBank\TimeBank\obj\Debug\net5.0\TimeBank.sourcelink.json
+D:\דיני\TimeBank\backend\server\TimeBank\TimeBank\obj\Debug\net5.0\TimeBank.RazorTargetAssemblyInfo.cache
+D:\דיני\TimeBank\backend\server\TimeBank\TimeBank\obj\Debug\net5.0\scopedcss\bundle\TimeBank.styles.css
+D:\דיני\TimeBank\backend\server\TimeBank\TimeBank\obj\Debug\net5.0\staticwebassets\TimeBank.StaticWebAssets.Manifest.cache
+D:\דיני\TimeBank\backend\server\TimeBank\TimeBank\obj\Debug\net5.0\staticwebassets\TimeBank.StaticWebAssets.Pack.cache
+D:\דיני\TimeBank\backend\server\TimeBank\TimeBank\obj\Debug\net5.0\staticwebassets\msbuild.TimeBank.Microsoft.AspNetCore.StaticWebAssets.props
+D:\דיני\TimeBank\backend\server\TimeBank\TimeBank\obj\Debug\net5.0\staticwebassets\msbuild.build.TimeBank.props
+D:\דיני\TimeBank\backend\server\TimeBank\TimeBank\obj\Debug\net5.0\staticwebassets\msbuild.buildMultiTargeting.TimeBank.props
+D:\דיני\TimeBank\backend\server\TimeBank\TimeBank\obj\Debug\net5.0\staticwebassets\msbuild.buildTransitive.TimeBank.props
+D:\דיני\TimeBank\backend\server\TimeBank\TimeBank\obj\Debug\net5.0\TimeBank.csproj.CopyComplete
+D:\דיני\TimeBank\backend\server\TimeBank\TimeBank\obj\Debug\net5.0\TimeBank.dll
+D:\דיני\TimeBank\backend\server\TimeBank\TimeBank\obj\Debug\net5.0\refint\TimeBank.dll
+D:\דיני\TimeBank\backend\server\TimeBank\TimeBank\obj\Debug\net5.0\TimeBank.pdb
+D:\דיני\TimeBank\backend\server\TimeBank\TimeBank\obj\Debug\net5.0\TimeBank.genruntimeconfig.cache
+D:\דיני\TimeBank\backend\server\TimeBank\TimeBank\obj\Debug\net5.0\ref\TimeBank.dll

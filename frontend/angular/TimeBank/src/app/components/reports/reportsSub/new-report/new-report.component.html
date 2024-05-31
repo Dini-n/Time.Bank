@@ -1,0 +1,53 @@
+<div class="container">
+  <h2>דיווח</h2>
+  <div class="user-info">
+    <p>שלום, {{this.user.currentMember.name}}!</p>
+    <p>אנא מלא את הטופס למטה לדיווח על שעות הפעילות שלך.</p>
+  </div>
+  <form #myForm="ngForm" (ngSubmit)="onSave()">
+    <div class="form-group">
+      <label for="category">קטגוריה:</label>
+      <select class="form-control" id="category" required [(ngModel)]="postReport.categoryName" #categoryVal="ngModel" name="category">
+        <option *ngFor="let cat of listCategory" [value]="cat.name">{{cat.name}}</option>
+      </select>
+      <div class="err" *ngIf="categoryVal.errors && (categoryVal.dirty||categoryVal.touched)">
+        <div *ngIf="categoryVal.errors?.['required']"><label>שדה זה חובה</label><br></div>
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="duration">משך זמן הפעולה :</label>
+      <input type="time" class="form-control" id="duration" required [(ngModel)]="postReport.reportsAndDetail.time" name="time" type="time" required #time="ngModel">
+      <div class="err" *ngIf="time.errors && (time.dirty||time.touched)">
+        <div *ngIf="time.errors?.['required']"><label>שדה זה חובה</label><br></div>
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="duration">הכנס כמות מקבלי הפעולה: </label>
+      <input class="form-control" id="countRecive" required [(ngModel)]="countReciveTS" name="countRecive" type="countRecive" required #countRecive="ngModel" (input)="updateReceivers()" >
+      <div class="err" *ngIf="countRecive.errors && (countRecive.dirty||countRecive.touched)">
+        <div *ngIf="countRecive.errors?.['required']"><label>שדה זה חובה</label><br></div>
+      </div>
+    </div>
+    <div class="form-group" *ngIf="countReciveTS>0">
+      <label for="receiver">מקבלי הפעולה:</label>
+      <div *ngFor="let receiver of countRecive.value;let i = index">
+        <input class="form-control" id="receiver{{i}}" required [(ngModel)]="receiver.phone" name="receiverPhone{{i}}" type="tel" minlength="9" maxlength="10" pattern="^ 0\d{8}|^05\d{8}$" #validPhone="ngModel"><br><br>
+        <input class="form-control" id="nameReciver{{i}}" required [(ngModel)]="receiver.name" name="nameReciver{{i}}" type="text" #nameReciver="ngModel">
+             <div class="err" *ngIf="validPhone.errors && (validPhone.dirty||validPhone.touched)">
+          <div *ngIf="validPhone.errors?.['required']"><label>שדה זה חובה</label><br>
+         </div>
+          <label *ngIf="validPhone.errors?.['minlength']">סיסמה מינימום 9 ספרות</label><br>
+          <label *ngIf="validPhone.errors?.['maxlength']">סיסמה מקסימום 10 ספרות</label>      
+          <label *ngIf="validPhone.errors?.['pattern']">מספר לא תקין</label>  
+        </div>
+        <br>
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="note">הערות:</label>
+      <input class="form-control" id="note" [(ngModel)]="postReport.reportsAndDetail.note" name="note" type="text">
+    </div>
+  <button class="btn btn-primary" type="submit" [disabled]="!myForm.valid">שלח</button>
+</form>
+</div>
+

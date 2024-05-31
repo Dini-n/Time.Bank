@@ -1,0 +1,653 @@
+// .filter-container {
+//     background-color: #f2f2f2;
+//     padding: 20px;
+//     border-radius: 5px;
+//     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+//   }
+  
+//   .filter-container h2 {
+//     font-size: 20px;
+//     font-weight: bold;
+//     margin-bottom: 10px;
+//   }
+  
+//   .filter-container .form-group {
+//     margin-bottom: 15px;
+//   }
+  
+//   .filter-container .form-group label {
+//     display: block;
+//     font-weight: bold;
+//   }
+  
+//   .filter-container .form-control {
+//     width: 100%;
+//     padding: 10px;
+//     border: 1px solid #ccc;
+//     border-radius: 5px;
+//   }
+  
+//   .filter-container .form-control:focus {
+//     outline: none;
+//     box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+//   }
+  
+//   .filter-container .form-group select {
+//     width: 100%;
+//     padding: 10px;
+//     border: 1px solid #ccc;
+//     border-radius: 5px;
+//     background-color: #fff;
+//   }
+  
+//   .filter-container .form-group input[type="checkbox"] {
+//     margin-top: 5px;
+//   }
+  
+//   .filter-container .btn {
+//     display: block;
+//     width: 100%;
+//     padding: 10px;
+//     border: none;
+//     border-radius: 5px;
+//     background-color: #4CAF50;
+//     color: #fff;
+//     font-size: 16px;
+//     font-weight: bold;
+//     cursor: pointer;
+//   }
+  
+//   .filter-container .btn:hover {
+//     background-color: #45a049;
+//   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//   /* Add your CSS code for the filter section here */
+// .filter-container {
+//   background: #f5f5f5;
+//   padding: 20px;
+//   border-radius: 10px;
+// }
+
+// .filter-container h2 {
+//   font-size: 24px;
+//   color: #333;
+//   margin-bottom: 20px;
+// }
+
+// .form-group {
+//   margin-bottom: 15px;
+// }
+
+// label {
+//   display: block;
+//   font-weight: bold;
+// }
+
+// input[type="text"],
+// select {
+//   width: 100%;
+//   padding: 10px;
+//   border: 1px solid #ccc;
+//   border-radius: 5px;
+// }
+
+// input[type="checkbox"] {
+//   margin-top: 5px;
+// }
+
+// .search-icon {
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+//   position: relative;
+//   width: 45px;
+//   height: 45px;
+//   background: #333;
+//   border-radius: 50%;
+//   color: #fff;
+//   cursor: pointer;
+//   margin-bottom: 20px;
+// }
+
+// .search-icon i {
+//   font-size: 20px;
+// }
+
+// .categories {
+//   display: none;
+//   margin-top: 20px;
+// }
+
+// .categories.open {
+//   display: block;
+// }
+
+// .categories .category-item {
+//   margin-bottom: 10px;
+//   cursor: pointer;
+// }
+
+// .categories .category-item i {
+//   margin-right: 5px;
+// }
+
+// .close-icon {
+//   position: absolute;
+//   top: 10px;
+//   right: 10px;
+//   color: #333;
+//   cursor: pointer;
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//   /* CSS for the form container */
+// .filter-container {
+//   background-color: #f2f2f2;
+//   padding: 20px;
+//   border-radius: 5px;
+//   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+//   width: 30%;
+//   float: right;
+//   margin-right: 10px;
+// }
+
+// /* CSS for the form title */
+// .filter-container h2 {
+//   font-size: 20px;
+//   font-weight: bold;
+//   margin-bottom: 10px;
+// }
+
+// /* CSS for form groups */
+// .filter-container .form-group {
+//   margin-bottom: 15px;
+// }
+
+// /* CSS for form labels */
+// .filter-container .form-group label {
+//   display: block;
+//   font-weight: bold;
+// }
+
+// /* CSS for form controls */
+// .filter-container .form-control {
+//   width: 100%;
+//   padding: 10px;
+//   border: 1px solid #ccc;
+//   border-radius: 5px;
+// }
+
+// /* CSS for focused form controls */
+// .filter-container .form-control:focus {
+//   outline: none;
+//   box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+// }
+
+// /* CSS for form select controls */
+// .filter-container .form-group select {
+//   width: 100%;
+//   padding: 10px;
+//   border: 1px solid #ccc;
+//   border-radius: 5px;
+//   background-color: #fff;
+// }
+
+// /* CSS for form checkboxes */
+// .filter-container .form-group input[type="checkbox"] {
+//   margin-top: 5px;
+// }
+
+// /* CSS for the search icon */
+// .filter-container .search-icon {
+//   position: relative;
+//   left: -25px;
+//   top: 5px;
+//   color: #ccc;
+//   cursor: pointer;
+// }
+
+// /* CSS for the plot point */
+// .filter-container .plot-point {
+//   width: 100%;
+//   height: 4px;
+//   background-color: #ccc;
+//   border-radius: 2px;
+//   margin-top: 5px;
+// }
+
+// /* CSS for the selected range */
+// .filter-container .selected-range {
+//   position: relative;
+//   height: 4px;
+//   background-color: #4CAF50;
+//   border-radius: 2px;
+// }
+
+// /* CSS for the form buttons */
+// .filter-container .btn {
+//   display: block;
+//   width: 100%;
+//   padding: 10px;
+//   border: none;
+//   border-radius: 5px;
+//   background-color: #4CAF50;
+//   color: #fff;
+//   font-size: 16px;
+//   font-weight: bold;
+//   cursor: pointer;
+// }
+
+// .filter-container .btn:hover {
+//   background-color: #45a049;
+// }
+
+
+
+
+
+
+
+
+
+
+
+// .filter-container {
+//   width: 300px;
+//   margin: 20px;
+//   padding: 20px;
+//   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+// }
+
+// .search-icon {
+//   margin-right: 10px;
+// }
+
+// .form-group {
+//   margin-bottom: 20px;
+// }
+
+
+
+
+// .container {
+//   position: fixed;
+//   right: 0;
+//   top: 50%;
+//   transform: translateY(-50%);
+//   width: 50px;
+//   height: 200px;
+//   transition: width 0.3s;
+//   overflow: hidden;
+// }
+
+// .container.open {
+//   width: 300px;
+// }
+
+// .slide-button {
+//   position: absolute;
+//   right: 0;
+//   top: 50%;
+//   transform: translateY(-50%);
+//   width: 50px;
+//   height: 50px;
+//   background-color: #fff;
+//   border: none;
+//   outline: none;
+//   cursor: pointer;
+// }
+
+// .slide-button mat-icon {
+//   font-size: 24px;
+// }
+
+// .filter-container {
+//   width: 250px;
+//   height: 100%;
+//   margin-left: 50px;
+//   padding: 20px;
+//   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+// }
+
+
+
+
+
+
+// .container {
+//   position: fixed;
+//   right: 20px;
+//   top: 50%;
+//   transform: translateY(-50%);
+//   width: 50px;
+//   height: 200px;
+//   transition: width 0.3s;
+//   overflow: hidden;
+// }
+
+// .container.open {
+//   width: 400px;
+// }
+
+// .slide-button {
+//   position: absolute;
+//   right: -50px;
+//   top: 50%;
+//   transform: translateY(-50%);
+//   width: 50px;
+//   height: 50px;
+//   background-color: #fff;
+//   border: none;
+//   outline: none;
+//   cursor: pointer;
+// }
+
+// .slide-button mat-icon {
+//   font-size: 240px;
+// }
+
+// .filter-container {
+//   margin-left: 60px;
+//   width: calc(100% - 60px);
+//   height: 100%;
+//   padding: 20px;
+// }
+
+// .filter-container mat-card-actions {
+//   display: flex;
+//   justify-content: flex-end;
+// }
+
+// .filter-container mat-card-actions button {
+//   margin-left: 10px;
+// }
+
+
+
+
+
+
+
+
+// .container {
+//   position: fixed;
+//   right: 20px;
+//   top: 50%;
+//   transform: translateY(-50%);
+//   width: 50px;
+//   height: 50px; /* Update the height to match the button */
+//   transition: width 0.3s;
+//   overflow: hidden;
+// }
+
+// .container.open {
+//   width: 400px;
+// }
+
+// .slide-button {
+//   position: absolute;
+//   right: 0;
+//   top: 0;
+//   width: 50px;
+//   height: 50px;
+//   background-color: #fff;
+//   border: none;
+//   outline: none;
+//   cursor: pointer;
+// }
+
+// .slide-button mat-icon {
+//   font-size: 24px;
+// }
+
+// .filter-container {
+//   display: none; /* Add this line to hide the container initially */
+// }
+
+// .filter-container.open {
+//   display: block; /* Add this line to show the container when it's open */
+// }
+
+// .filter-container mat-card-actions {
+//   display: flex;
+//   justify-content: flex-end;
+// }
+
+// .filter-container mat-card-actions button {
+//   margin-left: 10px;
+// }
+
+
+
+
+
+
+
+
+
+
+
+// .container {
+//   position: fixed;
+//   right: 20px;
+//   top: 50%;
+//   transform: translateY(-50%);
+// }
+
+// .slide-button {
+//   position: absolute;
+//   right: 0;
+//   top: 0;
+//   width: 50px;
+//   height: 50px;
+//   background-color: #fff;
+//   border: none;
+//   outline: none;
+//   cursor: pointer;
+// }
+
+// .slide-button mat-icon {
+//   font-size: 24px;
+// }
+
+// .filter-container {
+//   position: absolute;
+//   right: -400px;
+//   top: 0;
+//   width: 400px;
+//   background-color: #fff;
+//   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+//   transition: right 0.3s;
+//   overflow-y: auto;
+//   height: calc(100vh - 100px);
+//   padding: 20px;
+//   z-index: 1;
+// }
+
+// .filter-container.open {
+//   right: 20px;
+// }
+
+// .close-button {
+//   position: absolute;
+//   top: 10px;
+//   right: 10px;
+//   background-color: transparent;
+//   border: none;
+//   outline: none;
+//   cursor: pointer;
+// }
+
+// .close-button mat-icon {
+//   font-size: 24px;
+// }
+
+// .mat-card {
+//   margin-bottom: 20px;
+// }
+
+// .mat-card-header {
+//   display: flex;
+//   justify-content: space-between;
+//   align-items: center;
+// }
+
+// .mat-card-title {
+//   font-size: 20px;
+//   font-weight: bold;
+// }
+
+// .mat-form-field {
+//   width: 100%;
+// }
+
+// .mat-card-actions {
+//   display: flex;
+//   justify-content: flex-end;
+// }
+
+
+
+
+
+
+
+
+
+
+.container {
+  position: relative;
+  display: inline-block;
+}
+
+.slide-button {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 50px;
+  height: 50px;
+  background-color: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.slide-button mat-icon {
+  font-size: 24px;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: none;
+}
+
+.overlay.open {
+  display: block;
+}
+
+.filter-container {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 400px;
+  background-color: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  padding: 20px;
+  transition: transform 0.3s ease-in-out;
+  transform: translateX(100%);
+}
+
+.filter-container.open {
+  transform: translateX(0);
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.close-button mat-icon {
+  font-size: 24px;
+}
+
+.mat-card {
+  width: 100%;
+}
+
+.mat-card-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.mat-form-field {
+  margin-bottom: 10px;
+}
+
+.mat-card-actions {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 15px;
+}
+
+.mat-card-actions button {
+  margin-left: 10px;
+}

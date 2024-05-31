@@ -1,0 +1,11 @@
+<!-- <app-search-by-category (filteredData)="onFilteredData($event)"></app-search-by-category> -->
+
+<br>
+<h1>פעילות בבנק</h1>
+<br>
+<div *ngFor="let item of categories">  
+  <div class="column1">
+    <app-action-detiels [category]="item" ></app-action-detiels>
+  </div>
+   
+</div>

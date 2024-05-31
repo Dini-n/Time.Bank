@@ -1,0 +1,11 @@
+body,h1,h2,p,label{
+    font-family: Heebo;
+    direction: rtl;
+    margin:center;
+    text-align: center;
+}
+app-login{
+    margin:center;
+    text-align: right;
+
+}
