@@ -25,8 +25,8 @@
     #validPhone="ngModel" minlength="9" maxlength="10" pattern="^0\d{8}|^05\d{8}$">
     <div class="err" *ngIf="validPhone.errors && (validPhone.dirty||validPhone.touched)">
       <div *ngIf="validPhone.errors?.['required']"><label>שדה זה חובה</label><br></div>
-      <label *ngIf="validPhone.errors?.['minlength']"]>סיסמה מינימום 9 ספרות</label><br>
-      <label *ngIf="validPhone.errors?.['maxlength']">סיסמה מקסימום 10 ספרות</label>      
+      <label *ngIf="validPhone.errors?.['minlength']"]>פלאפון מינימום 9 ספרות</label><br>
+      <label *ngIf="validPhone.errors?.['maxlength']">פלאפון מקסימום 10 ספרות</label>      
       <label *ngIf="validPhone.errors?.['pattern']">מספר לא תקין</label>      
     </div>
   </mat-form-field>

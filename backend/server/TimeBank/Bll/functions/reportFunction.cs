@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics.CodeAnalysis;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -29,7 +30,7 @@ namespace Bll.functions
                 return false;
                 //delete what we added
                 //לבדוק קודם תקינות אולי של כל הטלפונים ואז להכניס במקום להכניס ולמחוק
-                Dal.functions.reportFun.deleteReportById(reportID);
+                //Dal.functions.reportFun.deleteReportById(reportID);
             }
             ///////////////////////////  
             Dal.functions.reportFun.addReportDetails(reportsDetails);
@@ -43,23 +44,30 @@ namespace Bll.functions
 
         public static int getterAproveReport(string phone, short reportId)
         {
+            //check if the getter is existed
             Dal.Models.Member tempMember = Dal.functions.memberFun.getMemberByPhone(phone);
             if (tempMember == null)
                 return 0;
-             int res = Dal.functions.reportFun.getterAproveReport(tempMember.Id, reportId) ? 1:0;
-            if(checkIsReportApproved(reportId))
+            //update the getter to approved
+            int res = Dal.functions.reportFun.GetterAproveReport(phone, reportId) ? 1 : 0;
+            if (res == 1)
+                return res;
+            //less the time for getter
+            TimeSpan repHours = Dal.functions.reportFun.getTimeOfReportById(reportId);
+            int hours, minuts;
+            hours = repHours.Hours;
+            minuts = repHours.Minutes;
+            TimeSpan addHours = new TimeSpan(hours, minuts, 0);
+            Dal.functions.reportFun.updateHours(phone, -addHours);
+
+
+
+            // add the time for giver by check if all the getter is approved 
+            if (checkIsReportApproved(reportId))
             {
-                TimeSpan repHours = Dal.functions.reportFun.getTimeOfReportById(reportId);
-                int hours, minuts;
-                int gettersNum = Dal.functions.reportFun.getNumOfGettersOfReportById(reportId);
-                //TODO use algorithem of hours
-                /////////////////////////////////
-                hours = repHours.Hours;
-                minuts = repHours.Minutes;
-                // for the begining we will just update the hours he put
-                TimeSpan addHours = new TimeSpan(hours, minuts,0);
-                Dal.functions.reportFun.updateHours(phone, addHours);
-                return 2;
+                string phoneGiver= Dal.functions.memberFun.getMemberByPhone(phone).Phone;
+                Dal.functions.reportFun.updateHours(phoneGiver, addHours);
+                return res+1;
             }
             return res;
 

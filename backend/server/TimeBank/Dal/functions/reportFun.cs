@@ -12,7 +12,31 @@ namespace Dal.functions
     {
         // משתנה שמכיל את המסד
         static Models.TimeBankContext db = new Models.TimeBankContext();
+        public static short addReport(Report rep)
+        {
+            try
+            {
+                Dal.Models.Report r = new Dal.Models.Report()
+                {
+                    MemberCategoryId = rep.MemberCategoryId,
+                    Date = rep.Date,
+                    Note = rep.Note,
+                    Hour = rep.Hour,
 
+                };
+                /*,ExperienceYears = newMemCate.ExperienceYears,ForGroup=newMemCate.ForGroup
+                                    ,Place= newMemCate.Place,PossibilityComeCustomerHome = newMemCate.PossibilityComeCustomerHome,*/
+                rep.MemberCategory = null;
+                rep.ReportsDetails = null;
+                db.Reports.Add(rep);
+                db.SaveChanges();
+                return rep.Id;
+            }
+            catch (Exception e)
+            {
+                throw new Exception();
+            }
+        }
         public static void addReportDetails(List<Dal.Models.ReportsDetail> reportsDetails)
         {
             try
@@ -40,47 +64,19 @@ namespace Dal.functions
             }
             return true;
         }
-
-        public static short addReport(Report rep)
-        {
-            try
-            {
-                Dal.Models.Report r = new Dal.Models.Report()
-                {
-                    MemberCategoryId = rep.MemberCategoryId,
-                    Date = rep.Date,
-                    Note = rep.Note,
-                    Hour = rep.Hour,
-               };
-                /*,ExperienceYears = newMemCate.ExperienceYears,ForGroup=newMemCate.ForGroup
-                                    ,Place= newMemCate.Place,PossibilityComeCustomerHome = newMemCate.PossibilityComeCustomerHome,*/
-          rep.MemberCategory = null;
-                rep.ReportsDetails = null;
-
-
-       
-                db.Reports.Add(rep);
-                db.SaveChanges();
-                return rep.Id;
-            }
-            catch(Exception e)
-            {
-                throw new Exception();
-            }
-    
-        }
-
         public static void deleteReportById(short reportID)
         {
             db.Reports.Remove(db.Reports.FirstOrDefault(r => r.Id == reportID));
         }
-
+        //return true if is approved
         public static bool checkIsReportApproved(short reportId)
         {
-            if (db.ReportsDetails.FirstOrDefault(r => r.ReportId == reportId && r.ReceiverApproved != true) == null)
-                return true;
+            //have one that reciver not approveed
+            bool isNotApproved = db.ReportsDetails.Where(o => o.ReportId == reportId).Any(l => l.ReceiverApproved == false);
+
+            if (isNotApproved)
+                return false;
             return false;
-            
         }
 
         public static void updateHours(string phone, TimeSpan addHours)
@@ -91,7 +87,6 @@ namespace Dal.functions
             db.SaveChanges();
             //TODO unlock semaphor
         }
-
         public static int getNumOfGettersOfReportById(short reportId)
         {
             return db.ReportsDetails.Where(r => r.ReportId == reportId).ToList().Count;
@@ -102,11 +97,12 @@ namespace Dal.functions
             return db.Reports.FirstOrDefault(r => r.Id == reportId).Hour;
         }
 
-        public static bool getterAproveReport(short getterId, short reportId)
+        //מאשר חבר בדיווח
+        public static bool GetterAproveReport(string phone, short reportId)
         {
             try
             {
-                Dal.Models.ReportsDetail r = db.ReportsDetails.FirstOrDefault(rd => rd.GetterMemberId == getterId && rd.ReportId == reportId);
+                Dal.Models.ReportsDetail r = db.ReportsDetails.FirstOrDefault(rd => rd.GetterMember.Phone == phone && rd.ReportId == reportId);
                 if (r == null)
                     return false;
                 r.ReceiverApproved = true;

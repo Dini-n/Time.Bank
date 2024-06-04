@@ -30,7 +30,8 @@ export class NewReportComponent implements OnInit {
   ngOnInit(): void {
     this.listCategory=this.user.currentMember.categories.map(c=>c.category);
     console.log(this.listCategory.toString());
-    
+    //this.postReport.reportsAndDetail.getterMembers=new Array<Receiver>(this.countReciveTS);
+
   }
 
 //פונקציית השמירה
@@ -55,6 +56,18 @@ export class NewReportComponent implements OnInit {
 
     
    updateReceivers() {
+    var countCurrentRecive=this.postReport.reportsAndDetail.getterMembers.length;
+    if(this.countReciveTS>countCurrentRecive)
+    for(let i=0; i< this.countReciveTS-countCurrentRecive; i++){
+      this.postReport.reportsAndDetail.getterMembers.push(new Receiver("",""));
+    }
+    else{
+      this.postReport.reportsAndDetail.getterMembers=[];
+      for(let i=0; i< this.countReciveTS; i++){
+        this.postReport.reportsAndDetail.getterMembers.push(new Receiver("",""));
+      }
+    }
+
    /* this.isEnterMember=true;
    
     const currentCount = this.report.receivers.length;

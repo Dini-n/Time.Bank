@@ -21,17 +21,17 @@ import { ViewCategoriesComponent } from './components/set-action/getFromBT/view-
 //------------materials------------//
 import { MatModule } from './modules/mat/mat.module';
 import { AddCategoryComponent } from './components/set-action/getFromBT/add-category/add-category.component';
-import { AddCategoryMemberComponent } from './components/account/add-category-member/add-category-member.component';
-import { MemberCategotiesComponent } from './components/account/member-categoties/member-categoties.component';
-import { MemberCatTableComponent } from './components/account/member-cat-table/member-cat-table.component';
+import { MemberCategotiesComponent } from './components/account/member-categories/member-categoties/member-categoties.component';
 import { LoginComponent } from './components/account/login/login.component';
 import { FormReportComponent } from './components/reports/reportsSub/form-report/form-report.component';
-import { ViewGiveComponent } from './components/account/view-give/view-give.component';
 import { ActionDetielsComponent } from './components/set-action/action-detiels/action-detiels.component';
 import { NewReportComponent } from './components/reports/reportsSub/new-report/new-report.component';
 import { ApproveComponent } from './components/reports/reportsSub/approve/approve.component';
 import { SearchByCategoryComponent } from './components/set-action/search/search-by-category/search-by-category.component';
 import { SearchByStringComponent } from './components/set-action/search/search-by-string/search-by-string.component';
+import { CategoryReportsComponent } from './components/account/member-categories/category-reports/category-reports.component';
+import { ReceivedReportsComponent } from './components/account/received-reports/received-reports.component';
+import { AddMemberCategoryComponent } from './components/account/member-categories/add-member-category/add-member-category.component';
 
 //import {ModelModule} from './modules/model/model.module'
 
@@ -48,17 +48,17 @@ import { SearchByStringComponent } from './components/set-action/search/search-b
     NewMemberComponent,
     ViewCategoriesComponent,
     AddCategoryComponent,
-    AddCategoryMemberComponent,
     MemberCategotiesComponent,
-    MemberCatTableComponent,
     LoginComponent,
     FormReportComponent,
-    ViewGiveComponent,
     ActionDetielsComponent,
     NewReportComponent,
     ApproveComponent,
     SearchByCategoryComponent,
     SearchByStringComponent,
+    CategoryReportsComponent,
+    ReceivedReportsComponent,
+    AddMemberCategoryComponent,
     
     //AboutComponent,
   ],

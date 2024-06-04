@@ -30,16 +30,20 @@
     </div>
     <div class="form-group" *ngIf="countReciveTS>0">
       <label for="receiver">מקבלי הפעולה:</label>
-      <div *ngFor="let receiver of countRecive.value;let i = index">
-        <input class="form-control" id="receiver{{i}}" required [(ngModel)]="receiver.phone" name="receiverPhone{{i}}" type="tel" minlength="9" maxlength="10" pattern="^ 0\d{8}|^05\d{8}$" #validPhone="ngModel"><br><br>
-        <input class="form-control" id="nameReciver{{i}}" required [(ngModel)]="receiver.name" name="nameReciver{{i}}" type="text" #nameReciver="ngModel">
-             <div class="err" *ngIf="validPhone.errors && (validPhone.dirty||validPhone.touched)">
+      <div *ngFor="let reciver of  postReport.reportsAndDetail.getterMembers;let i = index">
+        <label for="duration">חבר מספר {{i+1}}</label>
+        <label for="duration">מספר פלאפון</label>
+        <input class="form-control" id="reciver{{i}}" required [(ngModel)]="reciver.phone" name="reciverPhone{{i}}" type="tel" minlength="9" maxlength="10" pattern="^ 0\d{8}|^05\d{8}$" #validPhone="ngModel"><br><br>
+        <div class="err" *ngIf="validPhone.errors && (validPhone.dirty||validPhone.touched)">
           <div *ngIf="validPhone.errors?.['required']"><label>שדה זה חובה</label><br>
          </div>
-          <label *ngIf="validPhone.errors?.['minlength']">סיסמה מינימום 9 ספרות</label><br>
-          <label *ngIf="validPhone.errors?.['maxlength']">סיסמה מקסימום 10 ספרות</label>      
+          <label *ngIf="validPhone.errors?.['minlength']">פלאפון מינימום 9 ספרות</label><br>
+          <label *ngIf="validPhone.errors?.['maxlength']">פלאפון מקסימום 10 ספרות</label>      
           <label *ngIf="validPhone.errors?.['pattern']">מספר לא תקין</label>  
         </div>
+        <label for="duration">שם חבר</label>
+        <input class="form-control" id="reciver{{i}}" required [(ngModel)]="reciver.name" name="nameReciver{{i}}" type="text" #nameReciver="ngModel"><br><br>
+       
         <br>
       </div>
     </div>

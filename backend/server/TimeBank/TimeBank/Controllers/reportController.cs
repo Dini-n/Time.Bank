@@ -33,14 +33,14 @@ namespace TimeBank.Controllers
             bool isCorrectInput = Bll.functions.reportFunction.addReport(reeport.phone, reeport.categoryName, reeport.reportsAndDetail);
             return Ok(isCorrectInput);
         }
-
+        //אישור חבר לדיווח
         [HttpPut("getterAproveReport/{phone}/{reportId}")]
         public ActionResult<int> getterAproveReport(string phone , short reportId)
         {
             try
             {
+                //approve getter and update the time 
                 int sec = Bll.functions.reportFunction.getterAproveReport(phone, reportId);
-                /*פה לקרוא לפונקציות של השכבות מתחת שלוקחות את החבר שנשלח ופשוט משנות את הערך של צק לשקר*/
                 return Ok(sec);
             }
             catch

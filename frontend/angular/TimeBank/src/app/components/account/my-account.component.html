@@ -1,15 +1,32 @@
 
 
 <br>
-<h1 *ngIf="currentMember.name">יתרה</h1>
-<h1 *ngIf="currentMember.name">{{getRemainTime(currentMember)}}</h1>
-<h1 *ngIf="!currentMember.name">אנא התחבר לחשבון</h1>
+
+<!-- sign in -->
+
+<div *ngIf="!currentMember.name">
+    <h1 >אנא התחבר לחשבון</h1>
+    <app-login></app-login>
+</div>
+
+
+<!-- is signing in-->
+<div *ngIf="currentMember.name" >
+    <h1 >יתרה</h1>
+    <h1>{{getRemainTime(currentMember)}}</h1> 
+    
+    <!--הוספת קטגוריה--> 
+    <app-add-member-category></app-add-member-category>
+    <!-- מציג את כל הקטגוריות נתינה של החבר הנוכחי-->
+    <app-member-categoties ></app-member-categoties>
+    <!--מציג את כל הנתינות של החבר הנוכחי-->
+    <app-category-reports ></app-category-reports>
+
+</div>
+
+
+
 <!-- כל הנתינות והקבלות -->
 <!-- קטגוריות משתמש -->
-<app-login *ngIf="!currentMember.name"></app-login>
-<app-member-categoties *ngIf="currentMember.name"></app-member-categoties>
-<!-- לוגין -->
 
-
-<app-view-give *ngIf="currentMember.name"></app-view-give>
 

@@ -104,6 +104,8 @@ namespace Dal.functions
                 db.MemberCategories.Include(m => m.Reports).ToList();
                 db.MemberCategories.Include(m => m.Category).ToList();
                 Models.Member tempMember = db.Members.FirstOrDefault(m => m.Phone == phone && m.Password == pass);
+                if (tempMember.RemainingHours.TotalHours < -10)
+                    return null;
                 if (tempMember.ToCheck == false)
                     return tempMember;
                 return null;
