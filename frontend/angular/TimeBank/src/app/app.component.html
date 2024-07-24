@@ -8,5 +8,12 @@
       <a routerLink="/myAccount">חשבון</a>
       <a routerLink="/about">אודות בנק הזמן</a> 
       <a routerLink="/" >בית</a>
-     </div></header>
+    
+      <span *ngIf="isLoggedIn" class="user-details">{{ currentUserService.currentMember.name }}</span>
+    
+      <button mat-button *ngIf="!isLoggedIn" >התחבר</button>
+      <button mat-button *ngIf="isLoggedIn" (click)="logout()">התנתק</button>
+  
+   </div></header>
   <router-outlet></router-outlet>
+

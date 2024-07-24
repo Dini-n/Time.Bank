@@ -9,12 +9,12 @@ namespace Bll.converters
     class categoryMemberConvert
     {
 
-        public static Dal.Models.MemberCategory convertFromDtoToMicroWhithRouter(Dto.dtoClasses.CategoryMemberDto myMemberCategory,
+        public static async   Task< Dal.Models.MemberCategory> convertFromDtoToMicroWhithRouter(Dto.dtoClasses.CategoryMemberDto myMemberCategory,
             string phoneOfMember, string categoryName)
         {
            Dal.Models.MemberCategory m = convertFromDtoToMicro(myMemberCategory);
-            Dal.Models.Member mem = Dal.functions.memberFun.getMemberByPhone(phoneOfMember);
-            Dal.Models.Category c = Dal.functions.categoryFun.GetCategoryByName(categoryName);
+            Dal.Models.Member mem = await Dal.functions.memberFun.getMemberByPhone(phoneOfMember);
+            Dal.Models.Category c = await Dal.functions.categoryFun.GetCategoryByName(categoryName);
             if (mem == null)
                 return null;
                 /*throw new Exception("החבר בעל הקטגוריה אינו קיים במערכת");*/
@@ -37,7 +37,7 @@ namespace Bll.converters
             m.Place = microMemberCategory.Place;
             m.PossibilityComeCustomerHome = microMemberCategory.PossibilityComeCustomerHome;
             m.RestrictionsDescription = microMemberCategory.RestrictionsDescription;
-            m.reports =reportAndDetialConvert.ConvertListFromMicToDto(microMemberCategory.Reports.ToList());
+            m.reports =reportConvert.ConvertListFromMicToDto(microMemberCategory.Reports.ToList());
             return m;
         }
         public static Dal.Models.MemberCategory convertFromDtoToMicro(Dto.dtoClasses.CategoryMemberDto dtoMemberCategory)

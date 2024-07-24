@@ -10,12 +10,14 @@ namespace Dal.functions
 {
     public class memberFun
     {   // משתנה שמכיל את המסד
-        public static Models.TimeBankContext db = new Models.TimeBankContext();
+     //   public static Models.TimeBankContext db = new Models.TimeBankContext();
         /*-------------------כשזה יהיה יותר יעיל נעשה דיקשנרי של גישה לפי טלפון------------*/
 
         // פונקציה שמחזירה את החברים מהמסד בסוג המסד
-        public static List<Models.Member> GetAllMembers()
+        public static async Task< List<Models.Member>> GetAllMembers()
         {
+            Models.TimeBankContext db = new Models.TimeBankContext();
+
             db.Members.Include(m => m.MemberCategories).ToList();
             db.Reports.Include(m => m.ReportsDetails).ToList();
             db.MemberCategories.Include(m => m.Reports).ToList();
@@ -23,7 +25,7 @@ namespace Dal.functions
 
             try
             {
-                return db.Members.ToList();
+                return await db.Members.ToListAsync();
             }
             catch
             {
@@ -31,8 +33,10 @@ namespace Dal.functions
             }
         }
         // פונ שמקבלת משתנה מסוג המסד ומוסיפה אותו למסד
-        public static void addMember(Dal.Models.Member newm)
+        public static async Task addMember(Dal.Models.Member newm)
         {
+            Models.TimeBankContext db = new Models.TimeBankContext();
+
             try
             {
   /*              db.Members.Include(m => m.MemberCategories).ToList();
@@ -44,7 +48,7 @@ namespace Dal.functions
                 newm.MemberCategories = null;
                 newm.ReportsDetails = null;
                 newm.WaitingLists = null;
-                db.SaveChanges();
+               await db.SaveChangesAsync();
 
                 return;
 
@@ -55,12 +59,14 @@ namespace Dal.functions
             }
         }
         // פונ שמעדכנת חבר להיות מאושר
-        public static void approveMember(string phone)
+        public static async Task approveMember(string phone)
         {
+            Models.TimeBankContext db = new Models.TimeBankContext();
+
             try
             {
                 db.Members.FirstOrDefault(m => m.Phone == phone).ToCheck = false;
-                db.SaveChanges();
+              await  db.SaveChangesAsync();
                 return;
             }
             catch
@@ -70,8 +76,10 @@ namespace Dal.functions
             // db.Members.
         }
         //getMemberByPhone
-        public static Dal.Models.Member getMemberByPhone(string phone)
+        public static async Task< Dal.Models.Member> getMemberByPhone(string phone)
         {
+            Models.TimeBankContext db = new Models.TimeBankContext();
+
             try
             {
                 db.Members.Include(m => m.MemberCategories).ToList();
@@ -80,22 +88,26 @@ namespace Dal.functions
                 db.MemberCategories.Include(m => m.Category).ToList();
 
                 Dal.Models.Member mm = db.Members.FirstOrDefault(m => m.Phone == phone);
-                return db.Members.FirstOrDefault(m => m.Phone == phone);
+                return await db.Members.FirstOrDefaultAsync(m => m.Phone == phone);
             }
             catch
             {
                 throw new Exception();
             }
         }
-        public static bool isManager(string phone, string pass)
+        public static async Task< bool> isManager(string phone, string pass)
         {
-            Dal.Models.Member tempMem = db.Members.FirstOrDefault(m => m.Phone == phone);
+            Models.TimeBankContext db = new Models.TimeBankContext();
+
+            Dal.Models.Member tempMem =await db.Members.FirstOrDefaultAsync(m => m.Phone == phone);
             if (tempMem == null || tempMem.IsManager != true)
                 return false;
             return true;
         }
-        public static Models.Member checkMemberByPhoneAndPass(string phone, string pass)
+        public static async Task< Models.Member> checkMemberByPhoneAndPass(string phone, string pass)
         {
+            Models.TimeBankContext db = new Models.TimeBankContext();
+
             try
             {
                 // שם בחבר את כל המאפיינים כלומר מחזיר חבר עם קטגוריות דיווחים וכו
@@ -103,7 +115,8 @@ namespace Dal.functions
                 db.Reports.Include(m => m.ReportsDetails).ToList();
                 db.MemberCategories.Include(m => m.Reports).ToList();
                 db.MemberCategories.Include(m => m.Category).ToList();
-                Models.Member tempMember = db.Members.FirstOrDefault(m => m.Phone == phone && m.Password == pass);
+                Models.Member tempMember = await db.Members.FirstOrDefaultAsync(m => m.Phone.Equals(phone) && m.Password.Equals(pass));
+
                 if (tempMember.RemainingHours.TotalHours < -10)
                     return null;
                 if (tempMember.ToCheck == false)
@@ -116,12 +129,14 @@ namespace Dal.functions
                 throw new Exception();
             }
         }
-        public static void swichActive(string phone, bool nextStatus)
+        public static async Task swichActive(string phone, bool nextStatus)
         {
+            Models.TimeBankContext db = new Models.TimeBankContext();
+
             try
             {
                 db.Members.FirstOrDefault(m => m.Phone == phone).Active = nextStatus;
-                db.SaveChanges();
+               await db.SaveChangesAsync();
                 return;
             }
             catch

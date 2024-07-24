@@ -12,7 +12,9 @@ export class LoginComponent implements OnInit {
 
   constructor(private con:MemberConnectService, private curUser:CurrentUserService) { }
   newMember:Member = new Member("","","","","",1950,true , {hours:0,minutes:0},true,true);
-  
+  modalOpen: boolean = false;
+  errorMessage: string = "";
+
    //chana
    btnCont:string ="Sign in";
    check:boolean=true;
@@ -32,6 +34,13 @@ export class LoginComponent implements OnInit {
     //   }
     // }
   
+    openModal() {
+      this.modalOpen = true;
+    }
+  
+    closeModal() {
+      this.modalOpen = false;
+    }
   onSave(){
    this.con.checkMemberByPhoneAndPass(this.phone , this.password).subscribe(
 
@@ -49,14 +58,13 @@ export class LoginComponent implements OnInit {
           alert("ברוכה הבאה " +data.name)
           //עדכון מי החבר העכשווי
         this.curUser.setCurrentUser(data);
-        //console.log(this.curUser.currentMember.name); 
-        localStorage.setItem("currentUser",this.phone);
-        localStorage.setItem("currentPass",this.password);
-        this.ngOnInit();
+       this.ngOnInit();
    },
    (err) => 
    {
      alert(err.message);
+     this.errorMessage = "שגיאה בהתחברות. אנא נסה שנית.";
+
    }
  );
   }

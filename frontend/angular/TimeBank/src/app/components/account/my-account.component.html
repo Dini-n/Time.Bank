@@ -12,9 +12,9 @@
 
 <!-- is signing in-->
 <div *ngIf="currentMember.name" >
-    <h1 >יתרה</h1>
+    <h1 >יתרה בבנק היא:</h1>
     <h1>{{getRemainTime(currentMember)}}</h1> 
-    
+    <app-received-reports></app-received-reports>
     <!--הוספת קטגוריה--> 
     <app-add-member-category></app-add-member-category>
     <!-- מציג את כל הקטגוריות נתינה של החבר הנוכחי-->

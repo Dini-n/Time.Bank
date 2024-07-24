@@ -9,13 +9,7 @@ using System.Threading.Tasks;
 
 namespace TimeBank.Controllers
 {
-    public class PostReport
-    {
-        public string phone { get; set; }
-        public string categoryName { get; set; }
-        public Dto.dtoClasses.ReportAndDetailDto reportsAndDetail {  get; set; }    
-
-    }
+   
     [Route("api/[controller]")]
     [ApiController]
     public class reportController : ControllerBase
@@ -23,30 +17,17 @@ namespace TimeBank.Controllers
 
 
         [HttpPost("addReport")]
-        public ActionResult<bool> addReport( PostReport reeport)
+        public async Task< ActionResult<bool>> addReport( Dto.dtoClasses.ReportDto report)
         {
             //add checking of all the details if null exc.
 
-            if (reeport.reportsAndDetail == null ||reeport.reportsAndDetail.getterMembers == null || reeport.reportsAndDetail.getterMembers.Count == 0
-                ||(reeport.reportsAndDetail.time.hours == 0 && reeport.reportsAndDetail.time.minutes == 0))
+            if (report == null ||report.getterMembers == null || report.getterMembers.Count == 0
+                ||(report.time.hours == 0 && report.time.minutes == 0))
                 return Ok(false);
-            bool isCorrectInput = Bll.functions.reportFunction.addReport(reeport.phone, reeport.categoryName, reeport.reportsAndDetail);
+            bool isCorrectInput =await Bll.functions.reportFunction.addReport(report);
             return Ok(isCorrectInput);
         }
-        //אישור חבר לדיווח
-        [HttpPut("getterAproveReport/{phone}/{reportId}")]
-        public ActionResult<int> getterAproveReport(string phone , short reportId)
-        {
-            try
-            {
-                //approve getter and update the time 
-                int sec = Bll.functions.reportFunction.getterAproveReport(phone, reportId);
-                return Ok(sec);
-            }
-            catch
-            { return BadRequest(0); }
-
-        }
+     
 
 
 

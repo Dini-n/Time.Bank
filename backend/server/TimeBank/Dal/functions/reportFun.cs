@@ -11,9 +11,11 @@ namespace Dal.functions
     public class reportFun
     {
         // משתנה שמכיל את המסד
-        static Models.TimeBankContext db = new Models.TimeBankContext();
-        public static short addReport(Report rep)
+   //     static Models.TimeBankContext db = new Models.TimeBankContext();
+        public static async Task< short> addReport(Report rep)
         {
+            Models.TimeBankContext db = new Models.TimeBankContext();
+
             try
             {
                 Dal.Models.Report r = new Dal.Models.Report()
@@ -29,7 +31,7 @@ namespace Dal.functions
                 rep.MemberCategory = null;
                 rep.ReportsDetails = null;
                 db.Reports.Add(rep);
-                db.SaveChanges();
+               await db.SaveChangesAsync();
                 return rep.Id;
             }
             catch (Exception e)
@@ -37,17 +39,19 @@ namespace Dal.functions
                 throw new Exception();
             }
         }
-        public static void addReportDetails(List<Dal.Models.ReportsDetail> reportsDetails)
+        public static async Task addReportDetails(List<Dal.Models.ReportsDetail> reportsDetails)
         {
+            Models.TimeBankContext db = new Models.TimeBankContext();
+
             try
             {
                 foreach (Dal.Models.ReportsDetail item in reportsDetails)
                 {
                     item.GetterMember = null;
                     item.Report = null;
-                    db.ReportsDetails.Add(item);
+                   await db.ReportsDetails.AddAsync(item);
                 }
-                db.SaveChanges();
+               await db.SaveChangesAsync();
             }
             catch (Exception e)
             {
@@ -55,58 +59,78 @@ namespace Dal.functions
             }
         }
 
-        public static bool checkCorrectInputRec(List<string> listRec)
+        public static async Task< bool> checkCorrectInputRec(List<string> listRec)
         {
+            Models.TimeBankContext db = new Models.TimeBankContext();
+
             foreach (string item in listRec)
             {
-                if(Dal.functions.memberFun.getMemberByPhone(item) == null)
-                    return false;
+                if(await Dal.functions.memberFun.getMemberByPhone(item) == null)
+                    return  false;
             }
             return true;
         }
-        public static void deleteReportById(short reportID)
+        public static async Task deleteReportById(short reportID)
         {
-            db.Reports.Remove(db.Reports.FirstOrDefault(r => r.Id == reportID));
-        }
+            Models.TimeBankContext db = new Models.TimeBankContext();
+
+            Dal.Models.Report report = await db.Reports.FirstOrDefaultAsync(r => r.Id == reportID);
+            db.Reports.Remove(report);
+            await db.SaveChangesAsync();
+        
+         }
         //return true if is approved
-        public static bool checkIsReportApproved(short reportId)
+        public static async Task< bool>checkIsReportApproved(short reportId)
         {
+            Models.TimeBankContext db = new Models.TimeBankContext();
+
             //have one that reciver not approveed
-            bool isNotApproved = db.ReportsDetails.Where(o => o.ReportId == reportId).Any(l => l.ReceiverApproved == false);
+            bool isNotApproved =await db.ReportsDetails.Where(o => o.ReportId == reportId).AnyAsync(l => l.ReceiverApproved == false);
 
             if (isNotApproved)
                 return false;
             return false;
         }
 
-        public static void updateHours(string phone, TimeSpan addHours)
+        public static async Task updateHours(string phone, TimeSpan addHours)
         {
+            Models.TimeBankContext db = new Models.TimeBankContext();
+
             //TODO - lock with semaphor the account (an array of semaphors)
             //TODO lock
-            db.Members.FirstOrDefault(m => m.Phone == phone).RemainingHours += addHours;
-            db.SaveChanges();
+            Dal.Models.Member m=  await db.Members.FirstOrDefaultAsync(m => m.Phone == phone);
+            m.RemainingHours += addHours;
+            await db.SaveChangesAsync();
             //TODO unlock semaphor
         }
-        public static int getNumOfGettersOfReportById(short reportId)
+        public static async Task< int> getNumOfGettersOfReportById(short reportId)
         {
-            return db.ReportsDetails.Where(r => r.ReportId == reportId).ToList().Count;
+            Models.TimeBankContext db = new Models.TimeBankContext();
+
+            List< Dal.Models.ReportsDetail> reportsDetail = await db.ReportsDetails.Where(r => r.ReportId == reportId).ToListAsync();
+            return reportsDetail.Count;
         }
 
-        public static TimeSpan getTimeOfReportById(short reportId)
+        public static async Task< TimeSpan> getTimeOfReportById(short reportId)
         {
-            return db.Reports.FirstOrDefault(r => r.Id == reportId).Hour;
+            Models.TimeBankContext db = new Models.TimeBankContext();
+
+            Dal.Models.Report report = await db.Reports.FirstOrDefaultAsync(r => r.Id == reportId);
+            return report.Hour;
         }
 
         //מאשר חבר בדיווח
-        public static bool GetterAproveReport(string phone, short reportId)
+        public static async Task< bool> ApproveReceiptsInReport(string phone, short reportId)
         {
+            Models.TimeBankContext db = new Models.TimeBankContext();
+
             try
             {
-                Dal.Models.ReportsDetail r = db.ReportsDetails.FirstOrDefault(rd => rd.GetterMember.Phone == phone && rd.ReportId == reportId);
+                Dal.Models.ReportsDetail r =await db.ReportsDetails.FirstOrDefaultAsync(rd => rd.GetterMember.Phone == phone && rd.ReportId == reportId);
                 if (r == null)
                     return false;
                 r.ReceiverApproved = true;
-                db.SaveChanges();
+               await db.SaveChangesAsync();
                 return true;
             }
             catch (Exception e)

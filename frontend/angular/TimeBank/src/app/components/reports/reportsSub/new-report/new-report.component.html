@@ -7,7 +7,7 @@
   <form #myForm="ngForm" (ngSubmit)="onSave()">
     <div class="form-group">
       <label for="category">קטגוריה:</label>
-      <select class="form-control" id="category" required [(ngModel)]="postReport.categoryName" #categoryVal="ngModel" name="category">
+      <select class="form-control" id="category" required [(ngModel)]="postReport.categoryNameGive" #categoryVal="ngModel" name="category">
         <option *ngFor="let cat of listCategory" [value]="cat.name">{{cat.name}}</option>
       </select>
       <div class="err" *ngIf="categoryVal.errors && (categoryVal.dirty||categoryVal.touched)">
@@ -16,7 +16,7 @@
     </div>
     <div class="form-group">
       <label for="duration">משך זמן הפעולה :</label>
-      <input type="time" class="form-control" id="duration" required [(ngModel)]="postReport.reportsAndDetail.time" name="time" type="time" required #time="ngModel">
+      <input type="time" class="form-control" id="duration" required [(ngModel)]="postReport.time" name="time" type="time" required #time="ngModel">
       <div class="err" *ngIf="time.errors && (time.dirty||time.touched)">
         <div *ngIf="time.errors?.['required']"><label>שדה זה חובה</label><br></div>
       </div>
@@ -30,7 +30,7 @@
     </div>
     <div class="form-group" *ngIf="countReciveTS>0">
       <label for="receiver">מקבלי הפעולה:</label>
-      <div *ngFor="let reciver of  postReport.reportsAndDetail.getterMembers;let i = index">
+      <div *ngFor="let reciver of  postReport.getterMembers;let i = index">
         <label for="duration">חבר מספר {{i+1}}</label>
         <label for="duration">מספר פלאפון</label>
         <input class="form-control" id="reciver{{i}}" required [(ngModel)]="reciver.phone" name="reciverPhone{{i}}" type="tel" minlength="9" maxlength="10" pattern="^ 0\d{8}|^05\d{8}$" #validPhone="ngModel"><br><br>
@@ -49,7 +49,7 @@
     </div>
     <div class="form-group">
       <label for="note">הערות:</label>
-      <input class="form-control" id="note" [(ngModel)]="postReport.reportsAndDetail.note" name="note" type="text">
+      <input class="form-control" id="note" [(ngModel)]="postReport.note" name="note" type="text">
     </div>
   <button class="btn btn-primary" type="submit" [disabled]="!myForm.valid">שלח</button>
 </form>

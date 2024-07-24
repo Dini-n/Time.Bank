@@ -9,20 +9,20 @@ namespace Bll.functions
     public class categoriesFunctions
     {
         // מחזירה את כל הקטגוריות
-        public static List<Dto.dtoClasses.CategoryDto> GetAllCategoriesBll()
+        public static async Task<List<Dto.dtoClasses.CategoryDto>> GetAllCategoriesBll()
         {
-            List<Dto.dtoClasses.CategoryDto> l = Bll.converters.categoryConvert.ConvertListFromMicToDto(Dal.functions.categoryFun.GetAllCategories());
+            List<Dto.dtoClasses.CategoryDto> l =await Bll.converters.categoryConvert.ConvertListFromMicToDto(Dal.functions.categoryFun.GetAllCategories());
             return l;
         }
         // מוסיפה קטגוריה
-        public static void addCategory(Dto.dtoClasses.CategoryDto mnew , string fatherCatId)
+        public static async Task addCategory(Dto.dtoClasses.CategoryDto mnew , string fatherCatId)
         {
-            Dal.functions.categoryFun.addCategory(Bll.converters.categoryConvert.convertFromDtoToMicroWhithRouter(mnew,fatherCatId));
+          await  Dal.functions.categoryFun.addCategory(await Bll.converters.categoryConvert.convertFromDtoToMicroWhithRouter(mnew,fatherCatId));
 
         }
-        public static Dto.dtoClasses.CategoryDto GetCategoriesByName(string name)
+        public static async Task< Dto.dtoClasses.CategoryDto> GetCategoriesByName(string name)
         {
-            Dto.dtoClasses.CategoryDto l = Bll.converters.categoryConvert.convertFromMicToDto(Dal.functions.categoryFun.GetCategoryByName(name));
+            Dto.dtoClasses.CategoryDto l = Bll.converters.categoryConvert.convertFromMicToDto(await Dal.functions.categoryFun.GetCategoryByName(name));
             return l;
         }
     }

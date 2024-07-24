@@ -9,15 +9,15 @@ namespace Bll.functions
 {
     public class memberCategoryFunction
     {
-        public static void addMemberCategory(Dto.dtoClasses.CategoryMemberDto mcnew, string phoneOfMember,string categoryName)
+        public static async Task addMemberCategory(Dto.dtoClasses.CategoryMemberDto mcnew, string phoneOfMember,string categoryName)
         {
-            Dal.functions.categoryMemberFun.addMemberCategory(Bll.converters.categoryMemberConvert.
+           await Dal.functions.categoryMemberFun.addMemberCategory( await Bll.converters.categoryMemberConvert.
                 convertFromDtoToMicroWhithRouter(mcnew, phoneOfMember,categoryName));
 
         }
-        public static  List<Dto.dtoClasses.CatPlusMemberDto> getAllCategoriesMember()
+        public static  async Task< List<Dto.dtoClasses.CatPlusMemberDto>> getAllCategoriesMember()
         {
-             List<Dal.Models.MemberCategory> dDal = Dal.functions.categoryMemberFun.getAllCategoriesMember();
+             List<Dal.Models.MemberCategory> dDal =await Dal.functions.categoryMemberFun.getAllCategoriesMember();
              List<Dto.dtoClasses.CatPlusMemberDto> d = new List<Dto.dtoClasses.CatPlusMemberDto>();
             foreach (var item in dDal)
             {
@@ -26,9 +26,9 @@ namespace Bll.functions
             return d;
         }
 
-        public static List<Dto.dtoClasses.CatPlusMemberDto> GetFilteredMemberCategories(Dto.dtoClasses.CatPlusMemberDto filter)
+        public static async Task< List<Dto.dtoClasses.CatPlusMemberDto>> GetFilteredMemberCategories(Dto.dtoClasses.CatPlusMemberDto filter)
         {
-          List<Dal.Models.MemberCategory> MC = Dal.functions.categoryMemberFun.GetFilteredMemberCategories( filter.memGiverName, filter.memPhone,  filter.memEmail,filter.memAddress,filter.memGender,
+          List<Dal.Models.MemberCategory> MC =await Dal.functions.categoryMemberFun.GetFilteredMemberCategories( filter.memGiverName, filter.memPhone,  filter.memEmail,filter.memAddress,filter.memGender,
             filter.Category.name,filter.Place,filter.PossibilityComeCustomerHome, filter.ExperienceYears, filter.RestrictionsDescription, filter.ForGroup, filter.MinGruop, filter.MaxGroup);
              List<Dto.dtoClasses.CatPlusMemberDto> d = new List<Dto.dtoClasses.CatPlusMemberDto>();
             foreach (var item in MC)

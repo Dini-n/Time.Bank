@@ -16,17 +16,17 @@ namespace TimeBank.Controllers
     public class CategoryController : ControllerBase
     {
         [HttpGet("getAllCategories")]
-        public ActionResult<List<Dto.dtoClasses.CategoryDto>> getAllCategories()
+        public async Task<ActionResult<List<Dto.dtoClasses.CategoryDto>>> getAllCategories()
         {
-            List<Dto.dtoClasses.CategoryDto> l = Bll.functions.categoriesFunctions.GetAllCategoriesBll();
+            List<Dto.dtoClasses.CategoryDto> l =await Bll.functions.categoriesFunctions.GetAllCategoriesBll();
             return Ok(l);
         }
         [HttpPost("addCategory")]
-        public ActionResult<Dto.dtoClasses.CategoryDto> addCategory(Dto.dtoClasses.CategoryDto newCat ,string fatherName)
+        public async  Task<ActionResult<Dto.dtoClasses.CategoryDto>> addCategory(Dto.dtoClasses.CategoryDto newCat ,string fatherName)
         {
             try
             {
-                Bll.functions.categoriesFunctions.addCategory(newCat , fatherName);
+               await Bll.functions.categoriesFunctions.addCategory(newCat , fatherName);
                 return Ok(newCat);
             }
             catch

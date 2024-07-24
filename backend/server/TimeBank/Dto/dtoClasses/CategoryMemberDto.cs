@@ -18,7 +18,7 @@ namespace Dto.dtoClasses
         public short? MinGruop { get; set; }
         public short? MaxGroup { get; set; }
 
-        public List<ReportAndDetailDto> reports { get; set; }
+        public List<ReportDto> reports { get; set; }
 
     }
 }

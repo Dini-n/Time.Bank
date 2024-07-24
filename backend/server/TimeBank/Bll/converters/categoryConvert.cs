@@ -9,7 +9,7 @@ namespace Bll.converters
    public class categoryConvert
     {
         //המרת קטגוריה ממיקרוסופט אלינו
-        public static Dto.dtoClasses.CategoryDto convertFromMicToDto(Dal.Models.Category microCategory)
+        public static Dto.dtoClasses.CategoryDto convertFromMicToDto( Dal.Models.Category microCategory)
         {
             if (microCategory == null)
                 return null;
@@ -32,24 +32,24 @@ namespace Bll.converters
             microCategory.AmountPeopleOffered = c.amountPeopleOffered ;
             return microCategory;
         }
-        public static Dal.Models.Category convertFromDtoToMicroWhithRouter(Dto.dtoClasses.CategoryDto c,string categoryFather)
+        public static async Task< Dal.Models.Category> convertFromDtoToMicroWhithRouter(Dto.dtoClasses.CategoryDto c,string categoryFather)
         {
             Dal.Models.Category microCategory = new Dal.Models.Category();
             microCategory.Name = c.name;
             microCategory.FatherCategoryId = c.fatherCategoryId;
             microCategory.Approved = c.approved;
             microCategory.AmountPeopleOffered = c.amountPeopleOffered;
-            Dal.Models.Category cat = Dal.functions.categoryFun.GetCategoryByName(categoryFather);
+            Dal.Models.Category cat =await Dal.functions.categoryFun.GetCategoryByName(categoryFather);
             if (cat != null)
                 microCategory.FatherCategoryId = cat.Id;
             return microCategory;
         }
 
         // ממיר רשימה של מיקרוסופט אלנו
-        public static List<Dto.dtoClasses.CategoryDto> ConvertListFromMicToDto(List<Dal.Models.Category> microCategoryList)
+        public static async  Task<List<Dto.dtoClasses.CategoryDto>> ConvertListFromMicToDto(Task< List<Dal.Models.Category>> microCategoryList)
         {
             List<Dto.dtoClasses.CategoryDto> lc = new List<Dto.dtoClasses.CategoryDto>();
-            microCategoryList.ForEach(m => lc.Add(convertFromMicToDto(m)));
+            microCategoryList.Result.ForEach(m => lc.Add(convertFromMicToDto(m)));
             return lc;
         }
     }

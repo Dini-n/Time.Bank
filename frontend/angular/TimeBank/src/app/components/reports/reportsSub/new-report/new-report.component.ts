@@ -17,7 +17,7 @@ export class NewReportComponent implements OnInit {
   //בשביל שינוי נעשה קומפוננטה חדשה לעדכון בגלל הקוד הארוך והמייגע
   countReciveTS:number=0;
   isEnterMember:boolean=false;
-  postReport:PostReport=new PostReport("","",new ReportsAndDetails(new Date(),{hours: 0,minutes:0} ,"",[],false));
+  postReport:PostReport=new PostReport(0,"","","","",new Date(),{hours: 0,minutes:0} ,"",[],false);
 
   //דיווח
   //report:ReportsAndDetails=new ReportsAndDetails(new Date(),{hours: 0,minutes:0} ,"",[],false);
@@ -36,9 +36,9 @@ export class NewReportComponent implements OnInit {
 
 //פונקציית השמירה
   onSave(){
-      this.postReport.reportsAndDetail.getterMembers.push(new Receiver("Dina Nairner","0773009079"));
+      this.postReport.getterMembers.push(new Receiver("Dina Nairner","0773009079"));
   // this.postReport.categoryName=this.categoryName;
-   this.postReport.phone=this.user.currentMember.phone;
+   this.postReport.phoneGive=this.user.currentMember.phone;
        this.con.addReport(this.postReport).subscribe(     
          (data) => 
         {
@@ -56,15 +56,15 @@ export class NewReportComponent implements OnInit {
 
     
    updateReceivers() {
-    var countCurrentRecive=this.postReport.reportsAndDetail.getterMembers.length;
+    var countCurrentRecive=this.postReport.getterMembers.length;
     if(this.countReciveTS>countCurrentRecive)
     for(let i=0; i< this.countReciveTS-countCurrentRecive; i++){
-      this.postReport.reportsAndDetail.getterMembers.push(new Receiver("",""));
+      this.postReport.getterMembers.push(new Receiver("",""));
     }
     else{
-      this.postReport.reportsAndDetail.getterMembers=[];
+      this.postReport.getterMembers=[];
       for(let i=0; i< this.countReciveTS; i++){
-        this.postReport.reportsAndDetail.getterMembers.push(new Receiver("",""));
+        this.postReport.getterMembers.push(new Receiver("",""));
       }
     }
 

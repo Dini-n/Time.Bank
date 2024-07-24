@@ -29,22 +29,22 @@ getAllReport():Observable<Array<ReportsAndDetails>>
   // this.r.categoryName=categoryName;
   // this.r.phone=phone;
   // this.r.reportsAndDetail=rep;
- const hour= report.reportsAndDetail.time.toString().substring(0,2)
- const minutes= report.reportsAndDetail.time.toString().substring(3,5)
+ const hour= report.time.toString().substring(0,2)
+ const minutes= report.time.toString().substring(3,5)
 
     return this.http.post<boolean>(this.urlApi+this.reportController+"addReport", 
     {
-      "phone": report.phone,
-      "categoryName": report.categoryName,
+      "phone": report.phoneGive,
+      "categoryName": report.categoryNameGive,
       "reportsAndDetail": {
-        "date": report.reportsAndDetail.date,
+        "date": report.date,
         "time": {
           "hours": hour,
           "minutes":minutes
         },
-        "note":report.reportsAndDetail.note,
-        "getterMembers":report.reportsAndDetail.getterMembers,
-        "receiverApproved": report.reportsAndDetail.recieverApproved
+        "note":report.note,
+        "getterMembers":report.getterMembers,
+        "receiverApproved": report.recieverApproved
       }
     }
     

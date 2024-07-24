@@ -32,6 +32,7 @@ import { SearchByStringComponent } from './components/set-action/search/search-b
 import { CategoryReportsComponent } from './components/account/member-categories/category-reports/category-reports.component';
 import { ReceivedReportsComponent } from './components/account/received-reports/received-reports.component';
 import { AddMemberCategoryComponent } from './components/account/member-categories/add-member-category/add-member-category.component';
+import { ReceivedReportsNeedApproveComponent } from './components/account/received-reports/received-reports-need-approve/received-reports-need-approve.component';
 
 //import {ModelModule} from './modules/model/model.module'
 
@@ -59,6 +60,7 @@ import { AddMemberCategoryComponent } from './components/account/member-categori
     CategoryReportsComponent,
     ReceivedReportsComponent,
     AddMemberCategoryComponent,
+    ReceivedReportsNeedApproveComponent,
     
     //AboutComponent,
   ],

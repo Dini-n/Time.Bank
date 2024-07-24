@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -9,17 +10,19 @@ namespace Dal.functions
 {
     public class categoryMemberFun
     {
-        static Models.TimeBankContext db = new Models.TimeBankContext();
+      //  static Models.TimeBankContext db = new Models.TimeBankContext();
         // פונקציה שמחזירה את הקטגוריות של חבר מהמסד בסוג המסד
-        public static List<Models.MemberCategory> GetAllmemberCat()
+        public static async Task< List<Models.MemberCategory>> GetAllmemberCat()
         {
+            Models.TimeBankContext db = new Models.TimeBankContext();
+
             try
             {
                 db.Members.Include(m => m.MemberCategories).ToList();
                 db.Reports.Include(m => m.ReportsDetails).ToList();
                 db.MemberCategories.Include(m => m.Reports).ToList();
                 db.MemberCategories.Include(m => m.Category).ToList();
-                List<Models.MemberCategory> l = db.MemberCategories.ToList();
+                List<Models.MemberCategory> l =await db.MemberCategories.ToListAsync();
                 return l;
 
             }
@@ -29,9 +32,12 @@ namespace Dal.functions
             }
         }
 
-        public static  List<Dal.Models.MemberCategory> getAllCategoriesMember()
+        public static async Task < List<Dal.Models.MemberCategory>> getAllCategoriesMember()
 
-        {
+
+
+        {                       Models.TimeBankContext db = new Models.TimeBankContext();
+
             db.MemberCategories.Include(mc => mc.Member).ToList();
             db.MemberCategories.Include(mc => mc.Category).ToList();
             //db.MemberCategories.ToList();
@@ -41,15 +47,17 @@ namespace Dal.functions
             db.MemberCategories.ToList().Where(k => k.Category.Name == n.Name).ToList()));
 
 */
-            List<Dal.Models.MemberCategory> memberCategories = db.MemberCategories.ToList();
+            List<Dal.Models.MemberCategory> memberCategories =await db.MemberCategories.ToListAsync();
             return memberCategories;
         }
 
         // פונ שמקבלת משתנה קטגורית חבר מסוג המסד ומוסיפה אותו למסד
-        public static void addMemberCategory(Dal.Models.MemberCategory newMemCate)
+        public static async Task addMemberCategory(Dal.Models.MemberCategory newMemCate)
         {
-            try
-            {
+        Models.TimeBankContext db = new Models.TimeBankContext();
+
+        try
+        {
                 //db.Members.Include(m => m.MemberCategories).ToList();
                 //db.Reports.Include(m => m.ReportsDetails).ToList();
                 // db.MemberCategories.Include(m => m.Reports).ToList();
@@ -68,7 +76,7 @@ namespace Dal.functions
                 newMemCate.Category = null;
                 newMemCate.Member = null;
                 db.MemberCategories.Add(r);
-                db.SaveChanges();
+               await db.SaveChangesAsync();
 
                 return;
 
@@ -78,11 +86,13 @@ namespace Dal.functions
                 throw new Exception("it is not work");
             }
         }
-        public static Dal.Models.Category GetCategoryIdByName(string name)
+        public static  async Task< Dal.Models.Category> GetCategoryIdByName(string name)
         {
-            try
-            {
-                return db.Categories.FirstOrDefault(c => c.Name == name);
+        Models.TimeBankContext db = new Models.TimeBankContext();
+
+        try
+        {
+                return await db.Categories.FirstOrDefaultAsync(c => c.Name == name);
             }
             catch
             {
@@ -90,10 +100,12 @@ namespace Dal.functions
             }
         }
 
-        public static  List<Dal.Models.MemberCategory> GetFilteredMemberCategories(string name, string phone, string? email, string address, bool? gender,
+        public static async Task< List<Dal.Models.MemberCategory>> GetFilteredMemberCategories(string name, string phone, string? email, string address, bool? gender,
             string category, string place, bool? possibilityComeCustomerHome, short? experienceYears, string restrictionsDescription, bool? forGroup, short? minGroup, short? maxGroup)
         {
-            var query = db.MemberCategories.AsQueryable();
+        Models.TimeBankContext db = new Models.TimeBankContext();
+
+        var query = db.MemberCategories.AsQueryable();
             if (!string.IsNullOrEmpty(name))
             {
                 query = query.Where(mc => mc.Member.Name == name);
@@ -156,7 +168,7 @@ namespace Dal.functions
                 query = query.Where(mc => mc.MaxGroup == maxGroup);
             }
          //   db.MemberCategories.Include(mc => mc.Member).ToList();
-            List<Dal.Models.MemberCategory> d =  query.ToList();
+            List<Dal.Models.MemberCategory> d = await query.ToListAsync();
             return d;
 
         }

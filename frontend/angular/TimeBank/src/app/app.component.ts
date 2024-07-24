@@ -1,5 +1,8 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Inject, OnInit, Output, ViewChild } from '@angular/core';
 import { MemberConnectService } from './services/member-connect.service';
+import { LoginComponent } from './components/account/login/login.component';
+import { CurrentUserService } from './services/current-user.service';
+import { DOCUMENT } from '@angular/common';
 
 @Component({
   selector: 'app-root',
@@ -8,10 +11,17 @@ import { MemberConnectService } from './services/member-connect.service';
 })
 export class AppComponent implements OnInit{
 
-  constructor(private con:MemberConnectService) { }
+  title = 'bank-time';
+  isLoggedIn = false;
 
-  ngOnInit(): void {
-  this.con.loadAllMambers();
+  constructor(public currentUserService: CurrentUserService) { }
+
+  ngOnInit() {
+    this.isLoggedIn = this.currentUserService.currentMember && this.currentUserService.currentMember.phone !== "";
   }
-  title = 'angular';
+
+  logout() {
+    this.currentUserService.clearCurrentUser();
+    this.isLoggedIn = false;
+  }
 }

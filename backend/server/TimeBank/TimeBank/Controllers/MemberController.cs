@@ -12,17 +12,17 @@ namespace TimeBank.Controllers
     public class MemberController : ControllerBase
     {
         [HttpGet("getAllMembers")]
-        public ActionResult<List<Dto.dtoClasses.MemberDto>> getAllMembers()
+        public async Task<ActionResult<List<Dto.dtoClasses.MemberDto>>> getAllMembers()
         {
-            return Ok(Bll.functions.memberFunctions.GetAllMembersBll());
+            return Ok(await Bll.functions.memberFunctions.GetAllMembersBll());
         }
         //הוספת חבר חדש
         [HttpPost("addMember")]
-        public ActionResult<Dto.dtoClasses.MemberDto> addMember(Dto.dtoClasses.MemberDto newMem)
+        public async Task<ActionResult<Dto.dtoClasses.MemberDto>> addMember(Dto.dtoClasses.MemberDto newMem)
         {
             try
             { 
-             Bll.functions.memberFunctions.addMember(newMem);
+             await Bll.functions.memberFunctions.addMember(newMem);
              return Ok(newMem);
             }
             catch
@@ -31,11 +31,11 @@ namespace TimeBank.Controllers
         }
 
         [HttpPut("aproveMember/{phone}")]
-        public ActionResult<int> aproveMember(string phone)
+        public async Task<ActionResult<int>> aproveMember(string phone)
         {
             try
             {
-                Bll.functions.memberFunctions.approveMember(phone);
+               await Bll.functions.memberFunctions.approveMember(phone);
                 /*פה לקרוא לפונקציות של השכבות מתחת שלוקחות את החבר שנשלח ופשוט משנות את הערך של צק לשקר*/
                 return Ok(1);
             }
@@ -52,23 +52,23 @@ namespace TimeBank.Controllers
         }
        */
         [HttpGet("checkMemberByPhoneAndPass/{phone}/{pass}")]
-        public ActionResult<Dto.dtoClasses.MemberDto> checkMemberByPhoneAndPass(string phone,string pass)
+        public async Task<ActionResult<Dto.dtoClasses.MemberDto>> checkMemberByPhoneAndPass(string phone,string pass)
         {
-            Dto.dtoClasses.MemberDto v = Bll.functions.memberFunctions.checkMemberByPhoneAndPass(phone,pass);
+            Dto.dtoClasses.MemberDto v =await Bll.functions.memberFunctions.checkMemberByPhoneAndPass(phone,pass);
             return Ok(v);
         }
         //chscks it a member is a manager by his phone and password
         [HttpGet("isManager/{phone}/{pass}")]
-        public ActionResult<bool> isManager(string phone, string pass)
+        public async Task<ActionResult<bool>> isManager(string phone, string pass)
         {
-            bool isManager = Bll.functions.memberFunctions.isManager(phone, pass);
+            bool isManager =await Bll.functions.memberFunctions.isManager(phone, pass);
             return Ok(isManager);
         }
         [HttpPut("swichActive/{phone}/{nextStatus}")]
-        public void swichActive(string phone , bool nextStatus)
+        public async Task swichActive(string phone , bool nextStatus)
         {
             /*הולך והופך את מצב החבר*/
-            Bll.functions.memberFunctions.swichActive(phone, nextStatus);
+          await  Bll.functions.memberFunctions.swichActive(phone, nextStatus);
         }
     }
 }
