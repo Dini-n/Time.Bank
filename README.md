@@ -1,4 +1,4 @@
-# TimeBankP
+# Time Bank
 Give of your abilities and get things you need in exchange for time
 ![image](https://github.com/user-attachments/assets/dc1e8343-b360-41d7-8bf3-b897e9c03732)
 ![image](https://github.com/user-attachments/assets/0ec1c2df-18db-484a-ad66-61976419c247)
